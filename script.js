@@ -80,7 +80,15 @@ const translations = {
         'cta-main-subtitle': 'Müşterilerimizin üretim süreçlerini optimize etmek için, her proje için özel kalıp çözümleri sunarak misyonumuzu yerine getiriyoruz.',
         'cta-main-button': 'Platform Turu',
         
-        // Form Sector Options
+        // Form Fields
+        'form-name': 'Ad Soyad *',
+        'form-name-placeholder': 'Tam adınız',
+        'form-email': 'E-posta *',
+        'form-email-placeholder': 'your.email@example.com',
+        'form-phone': 'Telefon',
+        'form-phone-placeholder': '+90 555 123 45 67',
+        'form-company': 'Firma Adı *',
+        'form-company-placeholder': 'Firmanızın adı',
         'form-sector': 'Sektör',
         'form-sector-select': 'Sektör Seçiniz',
         'form-sector-automotive': 'Otomotiv',
@@ -88,114 +96,6 @@ const translations = {
         'form-sector-medical': 'Medikal',
         'form-sector-aviation': 'Havacılık',
         'form-sector-other': 'Diğer',
-        
-        // Footer Sections
-        'footer-services-title': 'Hizmetlerimiz',
-        'footer-services-mold': 'Kalıp Üretimi',
-        'footer-services-cnc': 'CNC İşleme',
-        'footer-services-precision': 'Hassas İşleme',
-        'footer-services-prototype': 'Prototip Üretimi',
-        'footer-services-plastic': 'Plastik Enjeksiyon Kalıpları',
-        'footer-services-metal': 'Metal Kalıpları',
-        'footer-services-maintenance': 'Kalıp Bakımı',
-        'footer-services-support': 'Teknik Destek',
-        
-        'footer-sectors-title': 'Sektörler',
-        'footer-sectors-automotive': 'Otomotiv',
-        'footer-sectors-electronics': 'Elektronik',
-        'footer-sectors-medical': 'Medikal',
-        'footer-sectors-aviation': 'Havacılık',
-        
-        'footer-company-title': 'Şirket',
-        'footer-company-about': 'Hakkımızda',
-        'footer-company-certified': 'Kalite Belgelendi',
-        'footer-company-references': 'Referanslar',
-        'footer-company-career': 'Kariyer',
-        
-        'footer-contact-title': 'İletişim Bilgileri',
-        'footer-contact-address': 'Adres:',
-        'footer-contact-phone': 'Telefon:',
-        'footer-contact-email': 'E-posta:',
-        'footer-contact-hours': 'Çalışma Saatleri:',
-        'footer-contact-address-text': 'Organize Sanayi Bölgesi',
-        'footer-contact-address-text-2': 'A Blok No: 15',
-        'footer-contact-address-text-3': '34000 İstanbul, Türkiye',
-        'footer-contact-hours-text': 'Pazartesi - Cuma: 08:00 - 18:00',
-        'footer-contact-hours-text-2': 'Cumartesi: 08:00 - 14:00',
-        
-        // Social Links
-        'social-instagram': 'Instagram',
-        'social-whatsapp': 'WhatsApp',
-        
-        // Services
-        'services-title': 'Hizmetlerimiz',
-        'services-subtitle': 'Kalıp üretimi ve CNC işleme çözümleri',
-        'main-services-title': 'Ana Hizmetlerimiz',
-        'main-services-subtitle': '20 yıllık deneyimimizle sunduğumuz çözümler',
-        
-        // Service Cards
-        'service-plastic-title': 'Plastik Enjeksiyon Kalıpları',
-        'service-plastic-desc': 'Yüksek hassasiyetli plastik enjeksiyon kalıpları üretimi. Kompleks geometriler için uzman çözümler.',
-        'service-metal-title': 'Metal Kalıpları',
-        'service-metal-desc': 'Çelik ve alüminyum kalıpları ile metal parça üretimi. Dayanıklı ve uzun ömürlü kalıp çözümleri.',
-        'service-cnc-title': 'CNC İşleme',
-        'service-cnc-desc': '5 eksen CNC makineleri ile hassas işleme. Prototip ve seri üretim için profesyonel çözümler.',
-        'service-maintenance-title': 'Kalıp Bakımı',
-        'service-maintenance-desc': 'Mevcut kalıplarınızın bakımı ve onarımı. Performans optimizasyonu hizmetleri.',
-        
-        // Industries
-        'industries-title': 'Hizmet Verdiğimiz Sektörler',
-        'industries-subtitle': 'Farklı sektörlerde uzmanlaşmış çözümler',
-        'industry-automotive-title': 'Otomotiv',
-        'industry-automotive-desc': 'Otomotiv sektörü için hassas kalıp üretimi ve parça çözümleri.',
-        'industry-electronics-title': 'Elektronik',
-        'industry-electronics-desc': 'Elektronik cihazlar için özel kalıp tasarımları ve üretimi.',
-        'industry-medical-title': 'Medikal',
-        'industry-medical-desc': 'Medikal cihazlar için hijyenik ve hassas kalıp çözümleri.',
-        'industry-aviation-title': 'Havacılık',
-        'industry-aviation-desc': 'Havacılık sektörü için yüksek kaliteli ve güvenilir kalıplar.',
-        
-        // About Page
-        'about-title': 'Hakkımızda',
-        'about-subtitle': '20 yılı aşkın deneyimimizle kalıp üretiminde öncü firma',
-        'story-title': 'Hikayemiz',
-        'story-text-1': 'Hakkımızda Aymold, enjeksiyon kalıp imalatında 25 yılı aşkın tecrübesi, güçlü teknik altyapısı ve uzman kadrosuyla sektöre yön veren firmalardan biridir. Müşterilerimizin ihtiyaçlarını sadece kalıp üretimiyle sınırlı görmüyoruz; projeye ürün tasarımı aşamasından itibaren dahil oluyor, fikirden üretime kadar tüm süreçte çözüm ortağı olarak yer alıyoruz.',
-        'story-text-2': 'Modern CAD/CAM sistemleri, 3D modelleme ve mühendislik destekli analizlerle ürünlerin hem fonksiyonel hem de üretilebilir olmasını sağlıyoruz. Ardından kalıp tasarımı sürecinde, dayanıklılık, üretim hızı ve maliyet optimizasyonunu dikkate alarak en verimli çözümleri sunuyoruz. Geniş ve sürekli yenilenen makine parkurumuz, yüksek hassasiyetli CNC işleme merkezlerimiz ve deneyimli operatör kadromuz ile kalıp üretim sürecini kalite standartlarından ödün vermeden gerçekleştiriyoruz. Her bir proje, titizlikle yönetilen kalite kontrol süreçlerinden geçerek müşterilerimize eksiksiz şekilde teslim ediliyor. Aymold olarak biz, sadece kalıp üretmiyoruz; markaların ürünlerini hayata geçiriyor, onların rekabet gücünü artıracak teknik çözümler sunuyoruz. Ürün fikrinden seri üretime uzanan yolculukta yanınızdayız. Aymold –yüksek hassasiyetli enjeksiyon kalıp imalatında güvenilir çözüm ortağınız.',
-        'story-years': 'Yıl Deneyim',
-        'story-projects': 'Tamamlanan Proje',
-        'story-customers': 'Mutlu Müşteri',
-        
-        // Mission & Vision
-        'mission-title': 'Misyonumuz',
-        'mission-text': 'Müşterilerimizin ihtiyaçlarını en iyi şekilde anlayarak, yüksek kaliteli ve özel tasarım kalıplar üretmek. Sektörde güvenilir ve yenilikçi çözümler sunarak, müşteri memnuniyetini en üst seviyede tutmak.',
-        'vision-title': 'Vizyonumuz',
-        'vision-text': 'Türkiye\'nin önde gelen kalıp üretim firması olmak ve uluslararası pazarlarda söz sahibi olmak. Teknolojik gelişmeleri takip ederek, sektörde öncü rol üstlenmek.',
-        
-        // Values
-        'values-title': 'Değerlerimiz',
-        'values-subtitle': 'Çalışma prensiplerimizi oluşturan temel değerler',
-        'value-quality-title': 'Kalite',
-        'value-quality-desc': 'Her projede en yüksek kalite standartlarını sağlamak için çalışıyoruz.',
-        'value-reliability-title': 'Güvenilirlik',
-        'value-reliability-desc': 'Müşterilerimizle uzun vadeli, güvenilir iş ortaklıkları kuruyoruz.',
-        'value-innovation-title': 'Yenilikçilik',
-        'value-innovation-desc': 'Sürekli gelişim ve yenilikçi çözümler üretmeye odaklanıyoruz.',
-        'value-delivery-title': 'Zamanında Teslimat',
-        'value-delivery-desc': 'Projelerimizi belirlenen sürelerde tamamlamaya özen gösteriyoruz.',
-        
-        // CTA
-        'cta-title': 'Bizimle Çalışmaya Hazır mısınız?',
-        'cta-subtitle': 'Projeleriniz için profesyonel kalıp çözümleri sunuyoruz. Hemen iletişime geçin!',
-        'cta-quote': 'Teklif Alın',
-        'cta-contact': 'İletişime Geçin',
-        
-        // Quote Form
-        'quote-title': 'Ücretsiz Teklif Alın',
-        'quote-subtitle': 'Projeniz için özel kalıp çözümlerimiz hakkında bilgi almak için formu doldurun. 24 saat içinde size dönüş yapacağız.',
-        'form-name': 'Ad Soyad *',
-        'form-company': 'Firma Adı *',
-        'form-email': 'E-posta *',
-        'form-phone': 'Telefon *',
         'form-service': 'Hizmet Türü',
         'form-service-select': 'Hizmet Seçiniz',
         'form-service-plastic': 'Plastik Enjeksiyon Kalıbı',
@@ -213,22 +113,262 @@ const translations = {
         'form-error': 'Hata Oluştu',
         'form-error-message': 'Mesaj gönderilirken bir hata oluştu. Lütfen tekrar deneyin.',
         
-        // Footer
-        'footer-company': 'Şirket',
-        'footer-about': 'Hakkımızda',
-        'footer-services': 'Hizmetlerimiz',
-        'footer-references': 'Referanslar',
-        'footer-contact': 'İletişim',
-        'footer-services-title': 'Hizmetler',
-        'footer-contact-title': 'İletişim',
-        'footer-address': 'Adres:',
-        'footer-phone': 'Telefon:',
-        'footer-email': 'E-posta:',
-        'footer-working-hours': 'Çalışma Saatleri:',
-        'footer-address-text': 'Organize Sanayi Bölgesi',
-        'footer-address-text-2': 'İstanbul, Türkiye',
-        'footer-working-hours-text': 'Pazartesi - Cuma: 08:00 - 18:00',
-        'footer-working-hours-text-2': 'Cumartesi: 08:00 - 14:00'
+        // Quote Section
+        'quote-title': 'Ücretsiz Teklif Alın',
+        'quote-subtitle': 'Projeniz için özel kalıp çözümlerimiz hakkında bilgi almak için formu doldurun. 24 saat içinde size dönüş yapacağız.',
+        
+        // Services Page
+        'services-title': 'Hizmetlerimiz',
+        'services-subtitle': 'Kalıp üretimi ve CNC işleme çözümleri',
+        'main-services-title': 'Ana Hizmetlerimiz',
+        'main-services-subtitle': '20 yıllık deneyimimizle sunduğumuz çözümler',
+        'service-plastic-title': 'Plastik Enjeksiyon Kalıpları',
+        'service-plastic-desc': 'Yüksek hassasiyetli plastik enjeksiyon kalıpları üretimi. Kompleks geometriler için uzman çözümler.',
+        'service-metal-title': 'Metal Kalıpları',
+        'service-metal-desc': 'Çelik ve alüminyum kalıpları ile metal parça üretimi. Dayanıklı ve uzun ömürlü kalıp çözümleri.',
+        'service-cnc-title': 'CNC İşleme',
+        'service-cnc-desc': '5 eksen CNC makineleri ile hassas işleme. Prototip ve seri üretim için profesyonel çözümler.',
+        'service-maintenance-title': 'Kalıp Bakımı',
+        'service-maintenance-desc': 'Mevcut kalıplarınızın bakımı ve onarımı. Performans optimizasyonu hizmetleri.',
+        'industries-title': 'Hizmet Verdiğimiz Sektörler',
+        'industries-subtitle': 'Farklı sektörlerde uzmanlaşmış çözümler',
+        'industry-automotive-title': 'Otomotiv',
+        'industry-automotive-desc': 'Otomotiv sektörü için hassas kalıp üretimi ve parça çözümleri.',
+        'industry-electronics-title': 'Elektronik',
+        'industry-electronics-desc': 'Elektronik cihazlar için özel kalıp tasarımları ve üretimi.',
+        'industry-medical-title': 'Medikal',
+        'industry-medical-desc': 'Medikal cihazlar için hijyenik ve hassas kalıp çözümleri.',
+        'industry-aviation-title': 'Havacılık',
+        'industry-aviation-desc': 'Havacılık sektörü için yüksek kaliteli ve güvenilir kalıplar.',
+        
+        // Footer Sections
+        'footer-services-title': 'Hizmetlerimiz',
+        'footer-services-mold': 'Kalıp Üretimi',
+        'footer-services-cnc': 'CNC İşleme',
+        'footer-services-precision': 'Hassas İşleme',
+        'footer-services-prototype': 'Prototip Üretimi',
+        'footer-services-plastic': 'Plastik Enjeksiyon Kalıpları',
+        'footer-services-metal': 'Metal Kalıpları',
+        'footer-services-maintenance': 'Kalıp Bakımı',
+        'footer-sectors-title': 'Sektörler',
+        'footer-sectors-automotive': 'Otomotiv',
+        'footer-sectors-electronics': 'Elektronik',
+        'footer-sectors-medical': 'Medikal',
+        'footer-sectors-aviation': 'Havacılık',
+        'footer-company-title': 'Şirket',
+        'footer-company-about': 'Hakkımızda',
+        'footer-company-certified': 'Kalite Belgelendi',
+        'footer-company-references': 'Referanslar',
+        'footer-company-career': 'Kariyer',
+        'footer-contact-title': 'İletişim Bilgileri',
+        'footer-contact-address': 'Adres:',
+        'footer-contact-phone': 'Telefon:',
+        'footer-contact-email': 'E-posta:',
+        'footer-contact-hours': 'Çalışma Saatleri:',
+        'footer-contact-address-text': 'Organize Sanayi Bölgesi',
+        'footer-contact-address-text-2': 'A Blok No: 15',
+        'footer-contact-address-text-3': '34000 İstanbul, Türkiye',
+        'footer-contact-hours-text': 'Pazartesi - Cuma: 08:00 - 18:00',
+        'footer-contact-hours-text-2': 'Cumartesi: 08:00 - 14:00',
+        
+        // About Page
+        'about-title': 'Hakkımızda',
+        'about-subtitle': '20 yılı aşkın deneyimimizle kalıp üretiminde öncü firma',
+        'story-title': 'Hikayemiz',
+        'story-text-1': 'Hakkımızda Aymold, enjeksiyon kalıp imalatında 25 yılı aşkın tecrübesi, güçlü teknik altyapısı ve uzman kadrosuyla sektöre yön veren firmalardan biridir. Müşterilerimizin ihtiyaçlarını sadece kalıp üretimiyle sınırlı görmüyoruz; projeye ürün tasarımı aşamasından itibaren dahil oluyor, fikirden üretime kadar tüm süreçte çözüm ortağı olarak yer alıyoruz.',
+        'story-text-2': 'Modern CAD/CAM sistemleri, 3D modelleme ve mühendislik destekli analizlerle ürünlerin hem fonksiyonel hem de üretilebilir olmasını sağlıyoruz. Ardından kalıp tasarımı sürecinde, dayanıklılık, üretim hızı ve maliyet optimizasyonunu dikkate alarak en verimli çözümleri sunuyoruz. Geniş ve sürekli yenilenen makine parkurumuz, yüksek hassasiyetli CNC işleme merkezlerimiz ve deneyimli operatör kadromuz ile kalıp üretim sürecini kalite standartlarından ödün vermeden gerçekleştiriyoruz. Her bir proje, titizlikle yönetilen kalite kontrol süreçlerinden geçerek müşterilerimize eksiksiz şekilde teslim ediliyor. Aymold olarak biz, sadece kalıp üretmiyoruz; markaların ürünlerini hayata geçiriyor, onların rekabet gücünü artıracak teknik çözümler sunuyoruz. Ürün fikrinden seri üretime uzanan yolculukta yanınızdayız. Aymold –yüksek hassasiyetli enjeksiyon kalıp imalatında güvenilir çözüm ortağınız.',
+        'story-years': 'Yıl Deneyim',
+        'story-projects': 'Tamamlanan Proje',
+        'story-customers': 'Mutlu Müşteri',
+        
+        // Social Media
+        'social-instagram': 'Instagram',
+        'social-whatsapp': 'WhatsApp'
+    },
+    ru: {
+        // Navigation
+        'nav-home': 'Главная',
+        'nav-services': 'Услуги',
+        'nav-about': 'О нас',
+        'nav-contact': 'Контакты',
+        
+        // Hero Section
+        'hero-title-1': '#1 Производство Пресс-форм',
+        'hero-title-2': 'Станки с ЧПУ',
+        'hero-title-3': 'и Центр Точной Обработки',
+        'hero-subtitle': 'Доверяют более 500 компаний из внутреннего и международного рынков - высокое качество, быстрая доставка и конкурентоспособные цены.',
+        'hero-button': 'Экскурсия по Платформе',
+        
+        // Hero Slider Additional Slides
+        'hero-slide2-title-1': 'Точная Обработка',
+        'hero-slide2-title-2': 'Микронный Уровень',
+        'hero-slide2-title-3': 'Производство Пресс-форм',
+        'hero-slide2-subtitle': 'Микронная точность обработки на станках с ЧПУ последнего поколения. Экспертные решения для сложной геометрии и сложных проектов.',
+        'hero-slide2-button': 'Наши Услуги',
+        
+        'hero-slide3-title-1': 'Опытные Мастера',
+        'hero-slide3-title-2': 'Качественные Станки',
+        'hero-slide3-title-3': 'Профессиональные Решения',
+        'hero-slide3-subtitle': 'С нашими опытными мастерами и станками последнего поколения. Индивидуальные решения и отличные результаты для каждого проекта.',
+        'hero-slide3-button': 'Получить Предложение',
+        
+        // Trusted By Section
+        'trusted-by-title': 'Доверяют более 500 компаний из внутреннего и международного рынков, от малых предприятий до крупных корпоративных компаний',
+        
+        // Features Section
+        'features-title': 'Точные решения для пресс-форм для каждого проекта, все в одном месте',
+        'features-subtitle': 'Качественное производство, быстрая доставка, конкурентоспособные цены и принцип работы, ориентированный на удовлетворенность клиентов.',
+        'features-countries': '+ Страны',
+        'features-countries-desc': 'Клиенты из внутреннего и международного рынков',
+        'features-sectors': ' Различных Секторов',
+        'features-sectors-desc': 'Автомобильная промышленность, электроника, медицина, авиация',
+        'features-experience': ' Лет Опыта',
+        'features-experience-desc': 'Экспертиза в производстве пресс-форм',
+        'features-export': '+ Страны Заказов',
+        'features-export-desc': 'Мировой экспорт пресс-форм',
+        
+        // Channels Section
+        'channels-title': 'Решения для пресс-форм в 10+ секторах',
+        'channels-subtitle': 'Производство пресс-форм в автомобильной промышленности, электронике, медицине, авиации и других секторах. Такого уровня экспертизы вы не найдете ни в одной другой компании.',
+        'channel-automotive-title': 'Автомобильный Сектор',
+        'channel-automotive-desc': 'Точное производство пресс-форм для автомобильных деталей. Специальные решения для двигателя, трансмиссии, тормозной системы и кузовных деталей.',
+        'channel-automotive-link': 'Изучить Автомобильный',
+        'channel-electronics-title': 'Электронный Сектор',
+        'channel-electronics-desc': 'Точное производство пресс-форм для электронных устройств. Специальные конструкции для печатных плат, корпусов и соединительных элементов.',
+        'channel-electronics-link': 'Изучить Электронику',
+        'channel-medical-title': 'Медицинский Сектор',
+        'channel-medical-desc': 'Стерильное производство пресс-форм для медицинских устройств. Специальные материальные решения для хирургических инструментов и имплантатов.',
+        'channel-medical-link': 'Изучить Медицинский',
+        'channel-aviation-title': 'Авиационный Сектор',
+        'channel-aviation-desc': 'Высокоточное производство пресс-форм для авиационных деталей. Специальные решения для деталей самолетов и вертолетов.',
+        'channel-aviation-link': 'Изучить Авиацию',
+        
+        // Testimonials Section
+        'testimonials-title': 'Вы работаете с хорошими компаниями',
+        'testimonial1-quote': '"С тех пор как мы начали работать с AY MOLD, мы достигли 40% увеличения качества наших пресс-форм. Они превзошли наши ожидания своими возможностями точной обработки и быстрыми сроками доставки."',
+        'testimonial1-author': 'Мехмет Озкан',
+        'testimonial1-position': 'Менеджер по Производству',
+        'testimonial1-stat1': '40%',
+        'testimonial1-stat1-label': 'Увеличение качества',
+        'testimonial1-stat2': '50%',
+        'testimonial1-stat2-label': 'Сокращение времени доставки',
+        'testimonial2-quote': '"Мы успешно завершили наши сложные проекты с центром обработки с ЧПУ AY MOLD и экспертной командой. Они могут производить даже сложную геометрию идеально с их возможностями 5-осевой обработки."',
+        'testimonial2-author': 'Фатма Кая',
+        'testimonial2-position': 'Технический Директор',
+        'testimonial2-stat1': '5X',
+        'testimonial2-stat1-label': 'Увеличение точности',
+        'testimonial2-stat2': '30%',
+        'testimonial2-stat2-label': 'Сокращение затрат',
+        
+        // CTA Section
+        'cta-main-title': 'Один адрес, бесконечные решения для пресс-форм',
+        'cta-main-subtitle': 'Мы выполняем нашу миссию, предлагая специальные решения для пресс-форм для каждого проекта, чтобы оптимизировать производственные процессы наших клиентов.',
+        'cta-main-button': 'Экскурсия по Платформе',
+        
+        // Form Fields
+        'form-name': 'Имя *',
+        'form-name-placeholder': 'Ваше полное имя',
+        'form-email': 'Электронная почта *',
+        'form-email-placeholder': 'your.email@example.com',
+        'form-phone': 'Телефон',
+        'form-phone-placeholder': '+90 555 123 45 67',
+        'form-company': 'Компания',
+        'form-company-placeholder': 'Название вашей компании',
+        'form-sector': 'Сектор',
+        'form-sector-select': 'Выберите Сектор',
+        'form-sector-automotive': 'Автомобильная промышленность',
+        'form-sector-electronics': 'Электроника',
+        'form-sector-medical': 'Медицина',
+        'form-sector-aviation': 'Авиация',
+        'form-sector-other': 'Другое',
+        'form-service': 'Услуга',
+        'form-service-select': 'Выберите Услугу',
+        'form-service-plastic': 'Пластиковая Пресс-форма для Литья',
+        'form-service-metal': 'Металлическая Пресс-форма',
+        'form-service-cnc': 'Обработка с ЧПУ',
+        'form-service-maintenance': 'Обслуживание Пресс-форм',
+        'form-quantity': 'Количество',
+        'form-quantity-placeholder': 'Количество продукции',
+        'form-description': 'Описание Проекта *',
+        'form-description-placeholder': 'Детализируйте вашу потребность в пресс-форме...',
+        'form-file': 'Добавить Файл (Опционально)',
+        'form-file-note': 'Принимаются файлы PDF, DWG, STEP, STL (Макс: 10МБ)',
+        'form-submit': 'Запросить Предложение',
+        'form-success': 'Ваше сообщение успешно отправлено! Мы свяжемся с вами в ближайшее время.',
+        'form-error': 'Произошла Ошибка',
+        'form-error-message': 'Произошла ошибка при отправке сообщения. Пожалуйста, попробуйте еще раз.',
+        
+        // Quote Section
+        'quote-title': 'Получить Бесплатное Предложение',
+        'quote-subtitle': 'Заполните форму, чтобы получить информацию о наших специальных решениях для пресс-форм для вашего проекта. Мы свяжемся с вами в течение 24 часов.',
+        
+        // Services Page
+        'services-title': 'Наши Услуги',
+        'services-subtitle': 'Производство пресс-форм и решения с ЧПУ',
+        'main-services-title': 'Наши Основные Услуги',
+        'main-services-subtitle': 'Профессиональные решения с 20-летним опытом',
+        'service-plastic-title': 'Пластиковые Пресс-формы для Литья',
+        'service-plastic-desc': 'Высокоточное производство пластиковых пресс-форм. Экспертные решения для сложных геометрий.',
+        'service-metal-title': 'Металлические Пресс-формы',
+        'service-metal-desc': 'Стальные и алюминиевые пресс-формы для производства металлических деталей. Долговечные и долговечные решения.',
+        'service-cnc-title': 'Обработка с ЧПУ',
+        'service-cnc-desc': 'Точная обработка с 5-осевыми станками с ЧПУ. Профессиональные решения для прототипов и серийных производств.',
+        'service-maintenance-title': 'Обслуживание Пресс-форм',
+        'service-maintenance-desc': 'Обслуживание и ремонт ваших существующих пресс-форм. Услуги по оптимизации производительности.',
+        'industries-title': 'Секторы, в которых мы работаем',
+        'industries-subtitle': 'Специализированные решения в разных секторах',
+        'industry-automotive-title': 'Автомобильная промышленность',
+        'industry-automotive-desc': 'Точное производство пресс-форм и решения для автомобильной промышленности.',
+        'industry-electronics-title': 'Электроника',
+        'industry-electronics-desc': 'Специальные дизайны и производство для электронных устройств.',
+        'industry-medical-title': 'Медицина',
+        'industry-medical-desc': 'Гигиенические и точные решения для медицинских устройств.',
+        'industry-aviation-title': 'Авиация',
+        'industry-aviation-desc': 'Высококачественные и надежные пресс-формы для авиационной промышленности.',
+        
+        // Footer Sections
+        'footer-services-title': 'Наши Услуги',
+        'footer-services-mold': 'Производство Пресс-форм',
+        'footer-services-cnc': 'Обработка с ЧПУ',
+        'footer-services-precision': 'Точная Обработка',
+        'footer-services-prototype': 'Производство Прототипов',
+        'footer-services-plastic': 'Пластиковые Пресс-формы для Литья',
+        'footer-services-metal': 'Металлические Пресс-формы',
+        'footer-services-maintenance': 'Обслуживание Пресс-форм',
+        'footer-sectors-title': 'Секторы',
+        'footer-sectors-automotive': 'Автомобильная промышленность',
+        'footer-sectors-electronics': 'Электроника',
+        'footer-sectors-medical': 'Медицина',
+        'footer-sectors-aviation': 'Авиация',
+        'footer-company-title': 'Компания',
+        'footer-company-about': 'О нас',
+        'footer-company-certified': 'Качество Сертифицировано',
+        'footer-company-references': 'Ссылки',
+        'footer-company-career': 'Карьера',
+        'footer-contact-title': 'Контактная Информация',
+        'footer-contact-address': 'Адрес:',
+        'footer-contact-phone': 'Телефон:',
+        'footer-contact-email': 'Электронная почта:',
+        'footer-contact-hours': 'Рабочие Часы:',
+        'footer-contact-address-text': 'Организованная Промышленная Зона',
+        'footer-contact-address-text-2': 'Стамбул, Турция',
+        'footer-contact-address-text-3': 'Блок А, № 15, 34000, Стамбул, Турция',
+        'footer-contact-hours-text': 'Понедельник - Пятница: 08:00 - 18:00',
+        'footer-contact-hours-text-2': 'Суббота: 08:00 - 14:00',
+        
+        // About Page
+        'about-title': 'О нас',
+        'about-subtitle': 'Ведущая компания в производстве пресс-форм с более чем 20-летним опытом',
+        'story-title': 'Наша История',
+        'story-text-1': 'О нас Aymold - одна из компаний, ведущих сектор в производстве пресс-форм для литья под давлением с более чем 25-летним опытом, сильной технической инфраструктурой и экспертной командой. Мы не рассматриваем потребности наших клиентов ограниченными только производством пресс-форм; мы участвуем в проекте с этапа проектирования продукта, действуя как партнер-решение на протяжении всего процесса от идеи до производства.',
+        'story-text-2': 'С современными системами CAD/CAM, 3D-моделированием и инженерно-поддерживаемым анализом мы обеспечиваем, чтобы продукты были как функциональными, так и производимыми. Затем в процессе проектирования пресс-форм мы предлагаем наиболее эффективные решения, учитывая долговечность, скорость производства и оптимизацию затрат. С нашим обширным и постоянно обновляемым парком станков, высокоточными центрами обработки с ЧПУ и опытным персоналом операторов мы осуществляем процесс производства пресс-форм без компромиссов в стандартах качества. Каждый проект проходит через тщательно управляемые процессы контроля качества и доставляется нашим клиентам полностью. Как Aymold, мы не просто производим пресс-формы; мы воплощаем в жизнь продукты брендов, предлагая технические решения, которые увеличат их конкурентную силу. Мы с вами на пути от идеи продукта до массового производства. Aymold – ваш надежный партнер-решение в высокоточном производстве пресс-форм для литья под давлением.',
+        'story-years': 'Лет Опыта',
+        'story-projects': 'Завершенных Проектов',
+        'story-customers': 'Довольных Клиентов',
+        
+        // Social Media
+        'social-instagram': 'Instagram',
+        'social-whatsapp': 'WhatsApp'
     },
     en: {
         // Navigation
@@ -310,7 +450,15 @@ const translations = {
         'cta-main-subtitle': 'We fulfill our mission by offering special mold solutions for every project to optimize our customers\' production processes.',
         'cta-main-button': 'Platform Tour',
         
-        // Form Sector Options
+        // Form Fields
+        'form-name': 'Full Name *',
+        'form-name-placeholder': 'Your full name',
+        'form-email': 'Email *',
+        'form-email-placeholder': 'your.email@example.com',
+        'form-phone': 'Phone',
+        'form-phone-placeholder': '+90 555 123 45 67',
+        'form-company': 'Company Name *',
+        'form-company-placeholder': 'Your company\'s name',
         'form-sector': 'Sector',
         'form-sector-select': 'Select Sector',
         'form-sector-automotive': 'Automotive',
@@ -318,114 +466,6 @@ const translations = {
         'form-sector-medical': 'Medical',
         'form-sector-aviation': 'Aviation',
         'form-sector-other': 'Other',
-        
-        // Footer Sections
-        'footer-services-title': 'Our Services',
-        'footer-services-mold': 'Mold Manufacturing',
-        'footer-services-cnc': 'CNC Processing',
-        'footer-services-precision': 'Precision Processing',
-        'footer-services-prototype': 'Prototype Manufacturing',
-        'footer-services-plastic': 'Plastic Injection Molds',
-        'footer-services-metal': 'Metal Molds',
-        'footer-services-maintenance': 'Mold Maintenance',
-        'footer-services-support': 'Technical Support',
-        
-        'footer-sectors-title': 'Sectors',
-        'footer-sectors-automotive': 'Automotive',
-        'footer-sectors-electronics': 'Electronics',
-        'footer-sectors-medical': 'Medical',
-        'footer-sectors-aviation': 'Aviation',
-        
-        'footer-company-title': 'Company',
-        'footer-company-about': 'About Us',
-        'footer-company-certified': 'Quality Certified',
-        'footer-company-references': 'References',
-        'footer-company-career': 'Career',
-        
-        'footer-contact-title': 'Contact Information',
-        'footer-contact-address': 'Address:',
-        'footer-contact-phone': 'Phone:',
-        'footer-contact-email': 'Email:',
-        'footer-contact-hours': 'Working Hours:',
-        'footer-contact-address-text': 'Organized Industrial Zone',
-        'footer-contact-address-text-2': 'Block A No: 15',
-        'footer-contact-address-text-3': '34000 Istanbul, Turkey',
-        'footer-contact-hours-text': 'Monday - Friday: 08:00 - 18:00',
-        'footer-contact-hours-text-2': 'Saturday: 08:00 - 14:00',
-        
-        // Social Links
-        'social-instagram': 'Instagram',
-        'social-whatsapp': 'WhatsApp',
-        
-        // Services
-        'services-title': 'Our Services',
-        'services-subtitle': 'Mold manufacturing and CNC processing solutions',
-        'main-services-title': 'Our Main Services',
-        'main-services-subtitle': 'Professional solutions with 20 years of experience',
-        
-        // Service Cards
-        'service-plastic-title': 'Plastic Injection Molds',
-        'service-plastic-desc': 'High precision plastic injection mold manufacturing. Expert solutions for complex geometries.',
-        'service-metal-title': 'Metal Molds',
-        'service-metal-desc': 'Steel and aluminum molds for metal part production. Durable and long-lasting mold solutions.',
-        'service-cnc-title': 'CNC Machining',
-        'service-cnc-desc': 'Precision processing with 5-axis CNC machines. Professional solutions for prototype and series production.',
-        'service-maintenance-title': 'Mold Maintenance',
-        'service-maintenance-desc': 'Maintenance and repair of your existing molds. Performance optimization services.',
-        
-        // Industries
-        'industries-title': 'Industries We Serve',
-        'industries-subtitle': 'Specialized solutions in different sectors',
-        'industry-automotive-title': 'Automotive',
-        'industry-automotive-desc': 'Precision mold manufacturing and part solutions for the automotive industry.',
-        'industry-electronics-title': 'Electronics',
-        'industry-electronics-desc': 'Special mold designs and manufacturing for electronic devices.',
-        'industry-medical-title': 'Medical',
-        'industry-medical-desc': 'Hygienic and precise mold solutions for medical devices.',
-        'industry-aviation-title': 'Aviation',
-        'industry-aviation-desc': 'High quality and reliable molds for the aviation industry.',
-        
-        // About Page
-        'about-title': 'About Us',
-        'about-subtitle': 'Leading mold manufacturing company with over 20 years of experience',
-        'story-title': 'Our Story',
-        'story-text-1': 'About Aymold, with over 25 years of experience in injection mold manufacturing, strong technical infrastructure and expert staff, we are one of the companies leading the sector. We do not see our customers\' needs limited to mold production only; we get involved in the project from the product design stage, acting as a solution partner throughout the entire process from idea to production.',
-        'story-text-2': 'With modern CAD/CAM systems, 3D modeling and engineering-supported analyses, we ensure that products are both functional and manufacturable. Then in the mold design process, we offer the most efficient solutions by considering durability, production speed and cost optimization. With our extensive and continuously renewed machine park, high-precision CNC machining centers and experienced operator staff, we carry out the mold production process without compromising quality standards. Each project goes through meticulously managed quality control processes and is delivered to our customers completely. As Aymold, we do not just produce molds; we bring brands\' products to life, offering technical solutions that will increase their competitive power. We are with you on the journey from product idea to mass production. Aymold – your reliable solution partner in high-precision injection mold manufacturing.',
-        'story-years': 'Years Experience',
-        'story-projects': 'Completed Projects',
-        'story-customers': 'Happy Customers',
-        
-        // Mission & Vision
-        'mission-title': 'Our Mission',
-        'mission-text': 'To understand our customers\' needs in the best way and produce high quality and custom design molds. To provide reliable and innovative solutions in the sector and maintain customer satisfaction at the highest level.',
-        'vision-title': 'Our Vision',
-        'vision-text': 'To be Turkey\'s leading mold manufacturing company and have a say in international markets. To take a leading role in the sector by following technological developments.',
-        
-        // Values
-        'values-title': 'Our Values',
-        'values-subtitle': 'Core values that form our working principles',
-        'value-quality-title': 'Quality',
-        'value-quality-desc': 'We work to ensure the highest quality standards in every project.',
-        'value-reliability-title': 'Reliability',
-        'value-reliability-desc': 'We establish long-term, reliable business partnerships with our customers.',
-        'value-innovation-title': 'Innovation',
-        'value-innovation-desc': 'We focus on continuous improvement and innovative solutions.',
-        'value-delivery-title': 'On-Time Delivery',
-        'value-delivery-desc': 'We pay attention to complete our projects within the specified timeframes.',
-        
-        // CTA
-        'cta-title': 'Ready to Work With Us?',
-        'cta-subtitle': 'We offer professional mold solutions for your projects. Contact us now!',
-        'cta-quote': 'Get Quote',
-        'cta-contact': 'Contact Us',
-        
-        // Quote Form
-        'quote-title': 'Get Free Quote',
-        'quote-subtitle': 'Fill out the form to get information about our special mold solutions for your project. We will get back to you within 24 hours.',
-        'form-name': 'Full Name *',
-        'form-company': 'Company Name *',
-        'form-email': 'Email *',
-        'form-phone': 'Phone *',
         'form-service': 'Service Type',
         'form-service-select': 'Select Service',
         'form-service-plastic': 'Plastic Injection Mold',
@@ -443,22 +483,77 @@ const translations = {
         'form-error': 'Error Occurred',
         'form-error-message': 'An error occurred while sending the message. Please try again.',
         
-        // Footer
-        'footer-company': 'Company',
-        'footer-about': 'About Us',
-        'footer-services': 'Our Services',
-        'footer-references': 'References',
-        'footer-contact': 'Contact',
-        'footer-services-title': 'Services',
-        'footer-contact-title': 'Contact',
-        'footer-address': 'Address:',
-        'footer-phone': 'Phone:',
-        'footer-email': 'Email:',
-        'footer-working-hours': 'Working Hours:',
-        'footer-address-text': 'Organized Industrial Zone',
-        'footer-address-text-2': 'Istanbul, Turkey',
-        'footer-working-hours-text': 'Monday - Friday: 08:00 - 18:00',
-        'footer-working-hours-text-2': 'Saturday: 08:00 - 14:00'
+        // Quote Section
+        'quote-title': 'Get Free Quote',
+        'quote-subtitle': 'Fill out the form to get information about our special mold solutions for your project. We will get back to you within 24 hours.',
+        
+        // Services Page
+        'services-title': 'Our Services',
+        'services-subtitle': 'Mold manufacturing and CNC processing solutions',
+        'main-services-title': 'Our Main Services',
+        'main-services-subtitle': 'Professional solutions with 20 years of experience',
+        'service-plastic-title': 'Plastic Injection Molds',
+        'service-plastic-desc': 'High precision plastic injection mold manufacturing. Expert solutions for complex geometries.',
+        'service-metal-title': 'Metal Molds',
+        'service-metal-desc': 'Steel and aluminum molds for metal part production. Durable and long-lasting mold solutions.',
+        'service-cnc-title': 'CNC Machining',
+        'service-cnc-desc': 'Precision processing with 5-axis CNC machines. Professional solutions for prototype and series production.',
+        'service-maintenance-title': 'Mold Maintenance',
+        'service-maintenance-desc': 'Maintenance and repair of your existing molds. Performance optimization services.',
+        'industries-title': 'Industries We Serve',
+        'industries-subtitle': 'Specialized solutions in different sectors',
+        'industry-automotive-title': 'Automotive',
+        'industry-automotive-desc': 'Precision mold manufacturing and part solutions for the automotive industry.',
+        'industry-electronics-title': 'Electronics',
+        'industry-electronics-desc': 'Special mold designs and manufacturing for electronic devices.',
+        'industry-medical-title': 'Medical',
+        'industry-medical-desc': 'Hygienic and precise mold solutions for medical devices.',
+        'industry-aviation-title': 'Aviation',
+        'industry-aviation-desc': 'High quality and reliable molds for the aviation industry.',
+        
+        // Footer Sections
+        'footer-services-title': 'Our Services',
+        'footer-services-mold': 'Mold Manufacturing',
+        'footer-services-cnc': 'CNC Processing',
+        'footer-services-precision': 'Precision Processing',
+        'footer-services-prototype': 'Prototype Manufacturing',
+        'footer-services-plastic': 'Plastic Injection Molds',
+        'footer-services-metal': 'Metal Molds',
+        'footer-services-maintenance': 'Mold Maintenance',
+        'footer-sectors-title': 'Sectors',
+        'footer-sectors-automotive': 'Automotive',
+        'footer-sectors-electronics': 'Electronics',
+        'footer-sectors-medical': 'Medical',
+        'footer-sectors-aviation': 'Aviation',
+        'footer-company-title': 'Company',
+        'footer-company-about': 'About Us',
+        'footer-company-certified': 'Quality Certified',
+        'footer-company-references': 'References',
+        'footer-company-career': 'Career',
+        'footer-contact-title': 'Contact Information',
+        'footer-contact-address': 'Address:',
+        'footer-contact-phone': 'Phone:',
+        'footer-contact-email': 'Email:',
+        'footer-contact-hours': 'Working Hours:',
+        'footer-contact-address-text': 'Organized Industrial Zone',
+        'footer-contact-address-text-2': 'Istanbul, Turkey',
+        'footer-contact-address-text-3': 'Block A No: 15, 34000, Istanbul, Turkey',
+        'footer-contact-hours-text': 'Monday - Friday: 08:00 - 18:00',
+        'footer-contact-hours-text-2': 'Saturday: 08:00 - 14:00',
+        
+        // About Page
+        'about-title': 'About Us',
+        'about-subtitle': 'Leading mold manufacturing company with over 20 years of experience',
+        'story-title': 'Our Story',
+        'story-text-1': 'About Aymold, with over 25 years of experience in injection mold manufacturing, strong technical infrastructure and expert staff, we are one of the companies leading the sector. We do not see our customers\' needs limited to mold production only; we get involved in the project from the product design stage, acting as a solution partner throughout the entire process from idea to production.',
+        'story-text-2': 'With modern CAD/CAM systems, 3D modeling and engineering-supported analyses, we ensure that products are both functional and manufacturable. Then in the mold design process, we offer the most efficient solutions by considering durability, production speed and cost optimization. With our extensive and continuously renewed machine park, high-precision CNC machining centers and experienced operator staff, we carry out the mold production process without compromising quality standards. Each project goes through meticulously managed quality control processes and is delivered to our customers completely. As Aymold, we do not just produce molds; we bring brands\' products to life, offering technical solutions that will increase their competitive power. We are with you on the journey from product idea to mass production. Aymold – your reliable solution partner in high-precision injection mold manufacturing.',
+        'story-years': 'Years Experience',
+        'story-projects': 'Completed Projects',
+        'story-customers': 'Happy Customers',
+        
+        // Social Media
+        'social-instagram': 'Instagram',
+        'social-whatsapp': 'WhatsApp'
     }
 };
 
@@ -536,6 +631,36 @@ function changeLanguage(lang) {
     
     // Store language preference
     localStorage.setItem('preferred-language', lang);
+    
+    // Update flag icon based on selected language
+    const currentLangSpan = document.querySelector('.current-lang img');
+    if (currentLangSpan) {
+        let flagSrc = '';
+        switch(lang) {
+            case 'tr':
+                flagSrc = 'images/turkey.png';
+                break;
+            case 'en':
+                flagSrc = 'images/flag.png';
+                break;
+            case 'ru':
+                flagSrc = 'images/russia.png';
+                break;
+        }
+        if (flagSrc) {
+            currentLangSpan.src = flagSrc;
+            currentLangSpan.alt = lang.toUpperCase();
+        }
+    }
+    
+    // Update active state of language options
+    const langOptions = document.querySelectorAll('.lang-option');
+    langOptions.forEach(option => {
+        option.classList.remove('active');
+        if (option.getAttribute('data-lang') === lang) {
+            option.classList.add('active');
+        }
+    });
     
     console.log('Language change completed for:', lang);
 }

@@ -281,6 +281,11 @@ body {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
+/* Hide mobile social links on desktop */
+.mobile-social-links {
+    display: none;
+}
+
 .lang-option span:last-child {
     font-size: 0.9rem;
     font-weight: 500;

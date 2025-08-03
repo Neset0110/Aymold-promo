@@ -1201,6 +1201,74 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .nav-container {
+        justify-content: space-between;
+        padding: 0 20px;
+        position: relative;
+    }
+    
+    .nav-actions {
+        display: none;
+    }
+    
+    .hamburger {
+        display: flex;
+        order: 3;
+        position: relative;
+        z-index: 1001;
+        padding: 8px;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+    
+    .hamburger:hover {
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+    
+    /* Hide desktop social links in mobile */
+    .nav-actions .social-links {
+        display: none;
+    }
+    
+    /* Show mobile social links in mobile menu */
+    .mobile-social-links {
+        display: none;
+    }
+    
+    .nav-menu.active .mobile-social-links {
+        display: flex;
+        gap: 15px;
+        margin-top: 15px;
+        justify-content: center;
+        padding: 20px;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    
+    .nav-menu.active .mobile-social-links .social-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 50%;
+        text-decoration: none;
+        color: #1f2937;
+        font-size: 18px;
+        transition: all 0.3s ease;
+    }
+    
+    .nav-menu.active .mobile-social-links .social-link span {
+        display: none;
+    }
+    
+    .nav-menu.active .mobile-social-links .social-link:hover {
+        background: rgba(255, 255, 255, 1);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+    
     .nav-menu {
         display: none;
         position: fixed;
@@ -1212,6 +1280,8 @@ body {
         padding: 0;
         box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
         z-index: 999;
+        max-height: calc(100vh - 80px);
+        overflow-y: auto;
     }
     
     .nav-menu.active {
@@ -1268,12 +1338,6 @@ body {
     .dropdown-section ul li a {
         padding: 8px 0;
         font-size: 0.95rem;
-    }
-    
-
-    
-    .hamburger {
-        display: flex;
     }
     
     .hero {

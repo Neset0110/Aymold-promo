@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hizmetlerimiz - AY MOLD</title>
+    <title>İletişim - AY MOLD</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -21,7 +21,7 @@
                 <ul class="nav-list">
                     <li class="nav-item"><a href="index.html" class="nav-link" data-translate="nav-home">Ana Sayfa</a></li>
                     <li class="nav-item dropdown">
-                        <a href="services.html" class="nav-link active" data-translate="nav-services">Hizmetlerimiz</a>
+                        <a href="services.html" class="nav-link" data-translate="nav-services">Hizmetlerimiz</a>
                         <ul class="dropdown-menu">
                             <li><a href="kalip-tasarimi.html" data-translate="nav-service-design">Kalıp Tasarımı</a></li>
                             <li><a href="kalip-uretimi.html" data-translate="nav-service-design">Kalıp Üretimi</a></li>
@@ -34,7 +34,7 @@
                     <li class="nav-item"><a href="machines.html" class="nav-link" data-translate="nav-machines">Makine Parkuru</a></li>
                     <li class="nav-item"><a href="gallery.html" class="nav-link" data-translate="nav-gallery">Galeri</a></li>
                     <li class="nav-item"><a href="about.html" class="nav-link" data-translate="nav-about">Hakkımızda</a></li>
-                    <li class="nav-item"><a href="contact.html" class="nav-link" data-translate="nav-contact">İletişim</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link active" data-translate="nav-contact">İletişim</a></li>
                 </ul>
                 <!-- Mobile social links -->
                 <div class="social-links mobile-social-links">
@@ -92,145 +92,68 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="services-hero">
+    <section class="contact-hero">
         <div class="container">
-            <div class="services-hero-content">
-                <h1 data-translate="services-title">Hizmetlerimiz</h1>
-                <p data-translate="services-subtitle">Kalıp üretimi ve CNC işleme çözümleri</p>
+            <div class="contact-hero-content">
+                <h1 data-translate="contact-title">İletişim</h1>
+                <p data-translate="contact-subtitle">Bizimle iletişime geçin</p>
             </div>
         </div>
     </section>
 
-    <!-- Main Services Section -->
-    <section class="main-services">
+    <!-- Contact Information -->
+    <section class="contact-info-section">
         <div class="container">
-            <div class="section-header">
-                <h2 data-translate="services-title">HİZMETLERİMİZ</h2>
-            </div>
-            <div class="services-grid">
-                <div class="service-card">
-                                            <div class="service-image">
-                            <img src="images/mold1.jpg" alt="Kalıp Tasarımı">
-                            <a href="kalip-tasarimi.html" class="service-link">İNCELE...</a>
-                        </div>
-                    <div class="service-content">
-                        <h3>Kalıp Tasarımı</h3>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
                     </div>
+                    <h3 data-translate="contact-address-title">Adres</h3>
+                    <p data-translate="contact-address-text">Organize Sanayi Bölgesi<br>A Blok No: 15<br>34000 İstanbul, Türkiye</p>
                 </div>
-
-                <div class="service-card">
-                                            <div class="service-image">
-                            <img src="images/mold2.jpg" alt="Kalıp Üretimi">
-                            <a href="kalip-uretimi.html" class="service-link">İNCELE...</a>
-                        </div>
-                    <div class="service-content">
-                        <h3>Kalıp Üretimi</h3>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
                     </div>
+                    <h3 data-translate="contact-phone-title">Telefon</h3>
+                    <p><a href="tel:+902121234567">+90 (212) 123 45 67</a><br><a href="tel:+902121234568">+90 (212) 123 45 68</a></p>
                 </div>
-
-                <div class="service-card">
-                                            <div class="service-image">
-                            <img src="images/mold3.jpg" alt="CNC Fason İşleme">
-                            <a href="cnc-fason.html" class="service-link">İNCELE...</a>
-                        </div>
-                    <div class="service-content">
-                        <h3>CNC Fason İşleme</h3>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
                     </div>
+                    <h3 data-translate="contact-email-title">E-posta</h3>
+                    <p><a href="mailto:info@aymold.com">info@aymold.com</a><br><a href="mailto:sales@aymold.com">sales@aymold.com</a></p>
                 </div>
-
-                <div class="service-card">
-                                            <div class="service-image">
-                            <img src="images/mold1.jpg" alt="Tel Erezyon Fason Üretim">
-                            <a href="tel-erezyon.html" class="service-link">İNCELE...</a>
-                        </div>
-                    <div class="service-content">
-                        <h3>Tel Erezyon Fason Üretim</h3>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
                     </div>
-                </div>
-
-                <div class="service-card">
-                                            <div class="service-image">
-                            <img src="images/mold2.jpg" alt="Plastik Enjeksiyon Fason Baskı">
-                            <a href="plastik-enjeksiyon.html" class="service-link">İNCELE...</a>
-                        </div>
-                    <div class="service-content">
-                        <h3>Plastik Enjeksiyon Fason Baskı</h3>
-                    </div>
-                </div>
-
-                <div class="service-card">
-                                            <div class="service-image">
-                            <img src="images/mold3.jpg" alt="Ürün Tasarımı">
-                            <a href="urun-tasarimi.html" class="service-link">İNCELE...</a>
-                        </div>
-                    <div class="service-content">
-                        <h3>Ürün Tasarımı</h3>
-                    </div>
+                    <h3 data-translate="contact-hours-title">Çalışma Saatleri</h3>
+                    <p data-translate="contact-hours-text">Pazartesi - Cuma: 08:00 - 18:00<br>Cumartesi: 08:00 - 14:00</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Industries -->
-    <section class="industries">
+    <!-- Contact Form -->
+    <section class="contact-form-section">
         <div class="container">
-            <div class="section-header">
-                <h2 data-translate="industries-title">Hizmet Verdiğimiz Sektörler</h2>
-                <p data-translate="industries-subtitle">Farklı sektörlerde uzmanlaşmış çözümler</p>
-            </div>
-            <div class="industries-grid">
-                <div class="industry-card">
-                    <div class="industry-icon">
-                        <i class="fas fa-car"></i>
-                    </div>
-                    <h3 data-translate="industry-automotive-title">Otomotiv</h3>
-                    <p data-translate="industry-automotive-desc">Otomotiv sektörü için hassas kalıp üretimi ve parça çözümleri.</p>
-                </div>
-
-                <div class="industry-card">
-                    <div class="industry-icon">
-                        <i class="fas fa-microchip"></i>
-                    </div>
-                    <h3 data-translate="industry-electronics-title">Elektronik</h3>
-                    <p data-translate="industry-electronics-desc">Elektronik cihazlar için özel kalıp tasarımları ve üretimi.</p>
-                </div>
-
-                <div class="industry-card">
-                    <div class="industry-icon">
-                        <i class="fas fa-heartbeat"></i>
-                    </div>
-                    <h3 data-translate="industry-medical-title">Medikal</h3>
-                    <p data-translate="industry-medical-desc">Medikal cihazlar için hijyenik ve hassas kalıp çözümleri.</p>
-                </div>
-
-                <div class="industry-card">
-                    <div class="industry-icon">
-                        <i class="fas fa-plane"></i>
-                    </div>
-                    <h3 data-translate="industry-aviation-title">Havacılık</h3>
-                    <p data-translate="industry-aviation-desc">Havacılık sektörü için yüksek kaliteli ve güvenilir kalıplar.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Quote Form Section -->
-    <section class="quote-form" id="quote-form">
-        <div class="container">
-            <div class="form-content">
+            <div class="contact-form-container">
                 <div class="form-header">
-                    <h2 data-translate="quote-title">Ücretsiz Teklif Alın</h2>
-                    <p data-translate="quote-subtitle">Projeniz için özel kalıp çözümlerimiz hakkında bilgi almak için formu doldurun. 24 saat içinde size dönüş yapacağız.</p>
+                    <h2 data-translate="contact-form-title">Mesaj Gönderin</h2>
+                    <p data-translate="contact-form-subtitle">Projeleriniz için ücretsiz teknik danışmanlık alın</p>
                 </div>
-                <form class="quote-form-container" action="https://formspree.io/f/xyzpdlpq" method="POST" enctype="multipart/form-data">
+                <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
                     <div class="form-row">
                         <div class="form-group">
                             <label for="name" data-translate="form-name">Ad Soyad *</label>
                             <input type="text" id="name" name="name" required>
                         </div>
                         <div class="form-group">
-                            <label for="company" data-translate="form-company">Firma Adı *</label>
-                            <input type="text" id="company" name="company" required>
+                            <label for="company" data-translate="form-company">Firma</label>
+                            <input type="text" id="company" name="company">
                         </div>
                     </div>
                     <div class="form-row">
@@ -239,13 +162,13 @@
                             <input type="email" id="email" name="email" required>
                         </div>
                         <div class="form-group">
-                            <label for="phone" data-translate="form-phone">Telefon *</label>
-                            <input type="tel" id="phone" name="phone" required>
+                            <label for="phone" data-translate="form-phone">Telefon</label>
+                            <input type="tel" id="phone" name="phone">
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group">
-                            <label for="service" data-translate="form-service">Hizmet Türü</label>
+                            <label for="service" data-translate="form-service">Hizmet</label>
                             <select id="service" name="service">
                                 <option value="" data-translate="form-service-select">Hizmet Seçiniz</option>
                                 <option value="plastic-mold" data-translate="form-service-plastic">Plastik Enjeksiyon Kalıbı</option>
@@ -256,22 +179,37 @@
                         </div>
                         <div class="form-group">
                             <label for="quantity" data-translate="form-quantity">Adet</label>
-                            <input type="number" id="quantity" name="quantity" data-translate-placeholder="form-quantity-placeholder" placeholder="Üretim adedi">
+                            <input type="number" id="quantity" name="quantity" placeholder="Üretim adedi">
                         </div>
                     </div>
                     <div class="form-group full-width">
-                        <label for="description" data-translate="form-description">Proje Açıklaması *</label>
-                        <textarea id="description" name="description" rows="4" data-translate-placeholder="form-description-placeholder" placeholder="Kalıp ihtiyacınızı detaylandırın..." required></textarea>
-                    </div>
-                    <div class="form-group full-width">
-                        <label for="file" data-translate="form-file">Dosya Ekle (Opsiyonel)</label>
-                        <input type="file" id="file" name="file" accept=".pdf,.dwg,.step,.stl">
-                        <small data-translate="form-file-note">PDF, DWG, STEP, STL dosyaları kabul edilir (Max: 10MB)</small>
+                        <label for="message" data-translate="form-message">Mesajınız *</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Proje detaylarınızı yazın..." required></textarea>
                     </div>
                     <div class="form-submit">
-                        <button type="submit" class="btn-primary btn-large" data-translate="form-submit">Teklif İste</button>
+                        <button type="submit" class="btn-primary btn-large" data-translate="form-submit">Mesaj Gönder</button>
                     </div>
                 </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <div class="map-container">
+                <h2 data-translate="map-title">Konum</h2>
+                <div class="map-frame">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.275583365123!2d28.9784!3d41.0082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDAwJzI5LjUiTiAyOMKwNTgnNDIuMiJF!5e0!3m2!1str!2str!4v1234567890"
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
             </div>
         </div>
     </section>
@@ -281,46 +219,66 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
+                    <h4 data-translate="footer-services-title">Hizmetlerimiz</h4>
+                    <ul>
+                        <li><a href="services.html" data-translate="footer-services-mold">Kalıp Üretimi</a></li>
+                        <li><a href="services.html" data-translate="footer-services-cnc">CNC İşleme</a></li>
+                        <li><a href="services.html" data-translate="footer-services-precision">Hassas İşleme</a></li>
+                        <li><a href="services.html" data-translate="footer-services-prototype">Prototip Üretimi</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-translate="footer-sectors-title">Sektörler</h4>
+                    <ul>
+                        <li><a href="#" data-translate="footer-sectors-automotive">Otomotiv</a></li>
+                        <li><a href="#" data-translate="footer-sectors-electronics">Elektronik</a></li>
+                        <li><a href="#" data-translate="footer-sectors-medical">Medikal</a></li>
+                        <li><a href="#" data-translate="footer-sectors-aviation">Havacılık</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
                     <h4 data-translate="footer-company-title">Şirket</h4>
                     <ul>
                         <li><a href="about.html" data-translate="footer-company-about">Hakkımızda</a></li>
-                        <li><a href="services.html" data-translate="footer-services">Hizmetlerimiz</a></li>
+                        <li><a href="#" data-translate="footer-company-certified">Kalite Belgelendi</a></li>
                         <li><a href="#" data-translate="footer-company-references">Referanslar</a></li>
-                        <li><a href="contact.html" data-translate="footer-contact">İletişim</a></li>
+                        <li><a href="#" data-translate="footer-company-career">Kariyer</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4 data-translate="footer-services-title">Hizmetler</h4>
-                    <ul>
-                        <li><a href="#" data-translate="footer-services-plastic">Plastik Enjeksiyon Kalıpları</a></li>
-                        <li><a href="#" data-translate="footer-services-metal">Metal Kalıpları</a></li>
-                        <li><a href="#" data-translate="footer-services-cnc">CNC İşleme</a></li>
-                        <li><a href="#" data-translate="footer-services-maintenance">Kalıp Bakımı</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4 data-translate="footer-contact-title">İletişim</h4>
+                    <h4 data-translate="footer-contact-title">İletişim Bilgileri</h4>
                     <div class="contact-info">
                         <div class="contact-item">
                             <i class="fas fa-map-marker-alt"></i>
                             <div>
                                 <strong data-translate="footer-contact-address">Adres:</strong><br>
                                 <span data-translate="footer-contact-address-text">Organize Sanayi Bölgesi</span><br>
-                                <span data-translate="footer-contact-address-text-2">İstanbul, Türkiye</span>
+                                <span data-translate="footer-contact-address-text-2">A Blok No: 15</span><br>
+                                <span data-translate="footer-contact-address-text-3">34000 İstanbul, Türkiye</span>
                             </div>
                         </div>
                         <div class="contact-item">
                             <i class="fas fa-phone"></i>
                             <div>
                                 <strong data-translate="footer-contact-phone">Telefon:</strong><br>
-                                <a href="tel:+902121234567">+90 (212) 123 45 67</a>
+                                <a href="tel:+902121234567">+90 (212) 123 45 67</a><br>
+                                <a href="tel:+902121234568">+90 (212) 123 45 68</a>
                             </div>
                         </div>
                         <div class="contact-item">
                             <i class="fas fa-envelope"></i>
                             <div>
                                 <strong data-translate="footer-contact-email">E-posta:</strong><br>
-                                <a href="mailto:info@aymold.com">info@aymold.com</a>
+                                <a href="mailto:info@aymold.com">info@aymold.com</a><br>
+                                <a href="mailto:sales@aymold.com">sales@aymold.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <strong data-translate="footer-contact-hours">Çalışma Saatleri:</strong><br>
+                                <span data-translate="footer-contact-hours-text">Pazartesi - Cuma: 08:00 - 18:00</span><br>
+                                <span data-translate="footer-contact-hours-text-2">Cumartesi: 08:00 - 14:00</span>
                             </div>
                         </div>
                     </div>
@@ -345,4 +303,4 @@
 
     <script src="script.js"></script>
 </body>
-</html> 
+</html>

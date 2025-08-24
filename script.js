@@ -24,7 +24,7 @@ const translations = {
         'hero-slide3-title-1': 'Deneyimli Ustalar',
         'hero-slide3-title-2': 'Kaliteli Makineler',
         'hero-slide3-title-3': 'Profesyonel Çözümler',
-        'hero-slide3-subtitle': '20 yıllık deneyimli ustalarımız ve en son teknoloji makinelerimizle. Her proje için özel çözümler ve mükemmel sonuçlar.',
+        'hero-slide3-subtitle': '30 yıllık deneyimli ustalarımız ve en son teknoloji makinelerimizle. Her proje için özel çözümler ve mükemmel sonuçlar.',
         'hero-slide3-button': 'Teklif Al',
         
         // Trusted By Section

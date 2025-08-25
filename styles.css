@@ -2565,6 +2565,239 @@ html {
     width: 20px;
 }
 
+/* Machines Layout - Left Navigation + Right Content */
+.machines-main {
+    padding: 80px 0;
+    background: #f8f9fa;
+}
+
+.machines-layout {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 50px;
+    max-width: 1400px;
+    margin: 0 auto;
+    align-items: start;
+}
+
+/* Left Sidebar Navigation */
+.machines-sidebar {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    height: fit-content;
+    position: relative;
+    top: 0;
+    max-height: none;
+    overflow-y: visible;
+    border: 1px solid #e5e7eb;
+}
+
+
+
+.sidebar-section {
+    margin-bottom: 30px;
+}
+
+.sidebar-section:last-child {
+    margin-bottom: 0;
+}
+
+.sidebar-section h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #6c4f3d;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #e5e7eb;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.machine-nav {
+    list-style: none;
+}
+
+.machine-nav li {
+    margin-bottom: 8px;
+}
+
+.machine-nav-link {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #4b5563;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.machine-nav-link:hover {
+    background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%);
+    color: #3730a3;
+    transform: translateX(4px);
+    border-color: #818cf8;
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.2);
+}
+
+.machine-nav-link.active {
+    background: linear-gradient(135deg, #6c4f3d 0%, #8b5a3c 100%);
+    color: white;
+    font-weight: 500;
+    border-color: #6c4f3d;
+    box-shadow: 0 4px 12px rgba(108, 79, 61, 0.3);
+}
+
+.machine-name {
+    display: block;
+}
+
+/* Right Content Area - All Machines Displayed Vertically */
+.machines-content {
+    background: white;
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    min-height: 600px;
+    border: 1px solid #e5e7eb;
+}
+
+.machine-detail {
+    display: block;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.machine-detail:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
+}
+
+.machine-detail.active {
+    border-left: 4px solid #6c4f3d;
+    padding-left: 20px;
+}
+
+.machine-header h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #e5e7eb;
+}
+
+.machine-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.machine-image {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.machine-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.machine-info p {
+    font-size: 1.1rem;
+    color: #6b7280;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.machine-specs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.spec-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    background: #f9fafb;
+    border-radius: 8px;
+    border-left: 4px solid #6c4f3d;
+}
+
+.spec-item i {
+    color: #6c4f3d;
+    font-size: 1.1rem;
+    width: 20px;
+    text-align: center;
+}
+
+.spec-item span {
+    font-weight: 500;
+    color: #374151;
+}
+
+/* Responsive Design for Machines Layout */
+@media (max-width: 1024px) {
+    .machines-layout {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .machines-sidebar {
+        position: relative;
+        order: 2;
+    }
+
+    .machines-content {
+        order: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .machine-body {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .machines-sidebar {
+        padding: 20px;
+    }
+
+    .machines-content {
+        padding: 30px 20px;
+    }
+
+    .sidebar-section h3 {
+        font-size: 1rem;
+    }
+
+    .machine-nav-link {
+        padding: 10px 14px;
+        font-size: 0.85rem;
+    }
+
+    .machine-detail {
+        margin-bottom: 40px;
+        padding-bottom: 30px;
+    }
+
+    .machine-header h2 {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+}
+
 /* Equipment Grid */
 .equipment-grid {
     display: grid;

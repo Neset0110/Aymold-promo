@@ -27,7 +27,7 @@
                             <li><a href="kalip-uretimi.html" data-translate="nav-mold-production">Kalıp Üretimi</a></li>
                             <li><a href="cnc-fason.html" data-translate="nav-cnc-machining">CNC Fason İşleme</a></li>
                             <li><a href="tel-erezyon.html" data-translate="nav-wire-erosion">Tel Erezyon Fason Üretim</a></li>
-                            <li><a href="plastik-enjeksiyon.html" data-translate="nav-plastic-injection">Plastik Enjeksiyon Fason Baskı</a></li>
+
                             <li><a href="urun-tasarimi.html" data-translate="nav-product-design">Ürün Tasarımı</a></li>
                         </ul>
                     </li>
@@ -96,125 +96,384 @@
         <div class="container">
             <div class="machines-hero-content">
                 <h1 data-translate="machines-hero-title">Makine Parkuru</h1>
-                <p data-translate="machines-hero-subtitle">En son teknoloji CNC makineleri ve hassas işleme merkezleri</p>
             </div>
         </div>
     </section>
 
-    <!-- CNC Machines -->
-    <section class="cnc-machines">
+    <!-- Main Content with Left Navigation and Right Content -->
+    <section class="machines-main">
         <div class="container">
-            <div class="section-header">
-                <h2 data-translate="machines-cnc-title">CNC İşleme Merkezleri</h2>
-            </div>
-            <div class="machines-grid">
-
-                <div class="machine-card">
-                    <div class="machine-image">
-                        <img src="images/mold2.jpg" alt="3 Eksen CNC">
+            <div class="machines-layout">
+                <!-- Left Navigation Sidebar -->
+                <div class="machines-sidebar">
+                    <div class="sidebar-section">
+                        <h3 data-translate="machines-cnc-title">CNC MAKİNELER</h3>
+                        <ul class="machine-nav">
+                            <li><a href="#quaser-mv204" class="machine-nav-link active" data-machine="quaser-mv204">
+                                <span class="machine-name" data-translate="machine-quaser-mv204-title">QUASER MV204 C CNC</span>
+                            </a></li>
+                            <li><a href="#haitian-hision" class="machine-nav-link" data-machine="haitian-hision">
+                                <span class="machine-name" data-translate="machine-haitian-hision-title">HAİTİAN HİSİON VMC 1000 II CNC</span>
+                            </a></li>
+                            <li><a href="#arion-imm600" class="machine-nav-link" data-machine="arion-imm600">
+                                <span class="machine-name" data-translate="machine-arion-imm600-title">ARION IMM600 CNC</span>
+                            </a></li>
+                        </ul>
                     </div>
-                    <div class="machine-content">
-                        <h3 data-translate="machine-3axis-title">3 Eksen CNC İşleme Merkezi</h3>
-                        <p data-translate="machine-3axis-desc">Yüksek hassasiyetli 3 eksen işleme merkezi. Kalıp üretimi için optimize edilmiş performans.</p>
-                        <div class="machine-specs">
-                            <div class="spec-item">
-                                <i class="fas fa-ruler"></i>
-                                                            <span data-translate="machine-3axis-size">Çalışma Alanı: 1000x800x600mm</span>
+
+                    <div class="sidebar-section">
+                        <h3 data-translate="machines-edm-title">EREZYON MAKİNELERİ</h3>
+                        <ul class="machine-nav">
+                            <li><a href="#charmilles-robofil" class="machine-nav-link" data-machine="charmilles-robofil">
+                                <span class="machine-name" data-translate="machine-charmilles-robofil-title">CHARMILLES ROBOFİL 510 TELEREZYON</span>
+                            </a></li>
+                            <li><a href="#excellent-dk7750" class="machine-nav-link" data-machine="excellent-dk7750">
+                                <span class="machine-name" data-translate="machine-excellent-dk7750-title">EXCELLENT DK 7750 TELEREZYON</span>
+                            </a></li>
+                            <li><a href="#ipretech-delik" class="machine-nav-link" data-machine="ipretech-delik">
+                                <span class="machine-name" data-translate="machine-ipretech-delik-title">IPRETECH HIZLI DELİK DELME</span>
+                            </a></li>
+                            <li><a href="#excellent-cnc-dalma" class="machine-nav-link" data-machine="excellent-cnc-dalma">
+                                <span class="machine-name" data-translate="machine-excellent-cnc-dalma-title">EXCELLENT CNC DALMA EREZYON</span>
+                            </a></li>
+                            <li><a href="#gemini-cnc-dalma" class="machine-nav-link" data-machine="gemini-cnc-dalma">
+                                <span class="machine-name" data-translate="machine-gemini-cnc-dalma-title">GEMİNİ CNC DALMA EREZYON</span>
+                            </a></li>
+                        </ul>
+                    </div>
+
+                    <div class="sidebar-section">
+                        <h3 data-translate="machines-other-title">DİĞER MAKİNELER</h3>
+                        <ul class="machine-nav">
+                            <li><a href="#universal-freze" class="machine-nav-link" data-machine="universal-freze">
+                                <span class="machine-name" data-translate="machine-universal-freze-title">UNİVERSAL FREZE</span>
+                            </a></li>
+                            <li><a href="#wdm-radyal-matkap" class="machine-nav-link" data-machine="wdm-radyal-matkap">
+                                <span class="machine-name" data-translate="machine-wdm-radyal-matkap-title">WDM RADYAL MATKAP</span>
+                            </a></li>
+                            <li><a href="#satih-taslama" class="machine-nav-link" data-machine="satih-taslama">
+                                <span class="machine-name" data-translate="machine-satih-taslama-title">SATIH TAŞLAMA</span>
+                            </a></li>
+                            <li><a href="#tos-torna" class="machine-nav-link" data-machine="tos-torna">
+                                <span class="machine-name" data-translate="machine-tos-torna-title">TOS TORNA</span>
+                            </a></li>
+                            <li><a href="#uzay-testere" class="machine-nav-link" data-machine="uzay-testere">
+                                <span class="machine-name" data-translate="machine-uzay-testere-title">UZAY TESTERE</span>
+                            </a></li>
+                            <li><a href="#lazer-markalama" class="machine-nav-link" data-machine="lazer-markalama">
+                                <span class="machine-name" data-translate="machine-lazer-markalama-title">LAZER MARKALAMA</span>
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Right Content Area - All Machines Displayed Vertically -->
+                <div class="machines-content">
+                    <!-- QUASER MV204 C CNC -->
+                    <div class="machine-detail active" id="quaser-mv204">
+                        <div class="machine-header">
+                            <h2 data-translate="machine-quaser-mv204-title">QUASER MV204 C CNC</h2>
                         </div>
-                        <div class="spec-item">
-                            <i class="fas fa-tachometer-alt"></i>
-                            <span data-translate="machine-3axis-speed">Maksimum Hız: 15,000 RPM</span>
-                        </div>
-                        <div class="spec-item">
-                            <i class="fas fa-cog"></i>
-                            <span data-translate="machine-3axis-tools">Takım Sayısı: 30</span>
+                        <div class="machine-body">
+                            <div class="machine-image">
+                                <img src="imagesmachines/MV204.png" alt="QUASER MV204 C CNC">
+                            </div>
+                            <div class="machine-info">
+                                <p data-translate="machine-quaser-mv204-desc">CNC İşleme Merkezi</p>
+                                <div class="machine-specs">
+                                    <div class="spec-item">
+                                        <i class="fas fa-ruler"></i>
+                                        <span data-translate="machine-quaser-mv204-dimensions">Çalışma Alanı: 1250 x 700 mm</span>
+                                    </div>
+                                    <div class="spec-item">
+                                        <i class="fas fa-cube"></i>
+                                        <span data-translate="machine-quaser-mv204-quantity">Adet: 1</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="machine-card">
-                    <div class="machine-image">
-                        <img src="images/mold3.jpg" alt="EDM Makinesi">
-                    </div>
-                    <div class="machine-content">
-                        <h3 data-translate="machine-edm-title">EDM Tel Erozyon</h3>
-                        <p data-translate="machine-edm-desc">Yüksek hassasiyetli tel erozyon makinesi. Sert malzemeler için ideal çözüm.</p>
-                        <div class="machine-specs">
-                            <div class="spec-item">
-                                <i class="fas fa-ruler"></i>
-                                                            <span data-translate="machine-edm-size">Çalışma Alanı: 400x300x200mm</span>
+                    <!-- HAİTİAN HİSİON VMC 1000 II CNC -->
+                    <div class="machine-detail" id="haitian-hision">
+                        <div class="machine-header">
+                            <h2 data-translate="machine-haitian-hision-title">HAİTİAN HİSİON VMC 1000 II CNC</h2>
                         </div>
-                        <div class="spec-item">
-                            <i class="fas fa-tachometer-alt"></i>
-                            <span data-translate="machine-edm-accuracy">Hassasiyet: ±0.005mm</span>
-                        </div>
-                        <div class="spec-item">
-                            <i class="fas fa-cog"></i>
-                            <span data-translate="machine-edm-wire">Tel Çapı: 0.1-0.3mm</span>
+                        <div class="machine-body">
+                            <div class="machine-image">
+                                <img src="imagesmachines/hision.png" alt="HAİTİAN HİSİON VMC 1000 II CNC">
+                            </div>
+                            <div class="machine-info">
+                                <p data-translate="machine-haitian-hision-desc">CNC İşleme Merkezi</p>
+                                <div class="machine-specs">
+                                    <div class="spec-item">
+                                        <i class="fas fa-ruler"></i>
+                                        <span data-translate="machine-haitian-hision-dimensions">Çalışma Alanı: 1000 x 650 mm</span>
+                                    </div>
+                                    <div class="spec-item">
+                                        <i class="fas fa-cube"></i>
+                                        <span data-translate="machine-haitian-hision-quantity">Adet: 1</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-
-    <!-- Software -->
-    <section class="software-section">
-        <div class="container">
-            <div class="section-header">
-                <h2 data-translate="machines-software-title">CAD/CAM Yazılımları</h2>
-                <p data-translate="machines-software-subtitle">En son teknoloji tasarım ve üretim yazılımları</p>
-            </div>
-            <div class="software-grid">
-                <div class="software-card">
-                    <div class="software-icon">
-                        <i class="fas fa-cube"></i>
+                    <!-- ARION IMM600 CNC -->
+                    <div class="machine-detail" id="arion-imm600">
+                        <div class="machine-header">
+                            <h2 data-translate="machine-arion-imm600-title">ARION IMM600 CNC</h2>
+                        </div>
+                        <div class="machine-body">
+                            <div class="machine-image">
+                                <img src="imagesmachines/arion.png" alt="ARION IMM600 CNC">
+                            </div>
+                            <div class="machine-info">
+                                <p data-translate="machine-arion-imm600-desc">CNC İşleme Merkezi</p>
+                                <div class="machine-specs">
+                                    <div class="spec-item">
+                                        <i class="fas fa-ruler"></i>
+                                        <span data-translate="machine-arion-imm600-dimensions">Çalışma Alanı: 650 x 500 mm</span>
+                                    </div>
+                                    <div class="spec-item">
+                                        <i class="fas fa-cube"></i>
+                                        <span data-translate="machine-arion-imm600-quantity">Adet: 1</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <h3 data-translate="software-cad-title">CAD Yazılımları</h3>
-                    <ul class="software-list">
-                        <li data-translate="software-solidworks">Solidworks</li>
-                        <li data-translate="software-cimatron">Cimatron</li>
-                    </ul>
-                </div>
 
-                <div class="software-card">
-                    <div class="software-icon">
-                        <i class="fas fa-cogs"></i>
+                    <!-- CHARMILLES ROBOFİL 510 TELEREZYON -->
+                    <div class="machine-detail" id="charmilles-robofil">
+                        <div class="machine-header">
+                            <h2 data-translate="machine-charmilles-robofil-title">CHARMILLES ROBOFİL 510 TELEREZYON</h2>
+                        </div>
+                        <div class="machine-body">
+                            <div class="machine-image">
+                                <img src="imagesmachines/robofil.jpg" alt="CHARMILLES ROBOFİL 510 TELEREZYON">
+                            </div>
+                            <div class="machine-info">
+                                <p data-translate="machine-charmilles-robofil-desc">Tel Erezyon Makinesi</p>
+                                <div class="machine-specs">
+                                    <div class="spec-item">
+                                        <i class="fas fa-cube"></i>
+                                        <span data-translate="machine-charmilles-robofil-quantity">Adet: 1</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <h3 data-translate="software-cam-title">CAM Yazılımları</h3>
-                    <ul class="software-list">
-                        <li data-translate="software-esprit">Esprit TNG</li>
-                        <li data-translate="software-cimatron">Cimatron</li>
-                    </ul>
-                </div>
 
-                <div class="software-card">
-                    <div class="software-icon">
-                        <i class="fas fa-chart-line"></i>
+                    <!-- EXCELLENT DK 7750 TELEREZYON -->
+                    <div class="machine-detail" id="excellent-dk7750">
+                        <div class="machine-header">
+                            <h2 data-translate="machine-excellent-dk7750-title">EXCELLENT DK 7750 TELEREZYON</h2>
+                        </div>
+                        <div class="machine-body">
+                            <div class="machine-image">
+                                <img src="imagesmachines/excellent.jpg" alt="EXCELLENT DK 7750 TELEREZYON">
+                            </div>
+                            <div class="machine-info">
+                                <p data-translate="machine-excellent-dk7750-desc">Tel Erezyon Makinesi</p>
+                                <div class="machine-specs">
+                                    <div class="spec-item">
+                                        <i class="fas fa-cube"></i>
+                                        <span data-translate="machine-excellent-dk7750-quantity">Adet: 1</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <h3 data-translate="software-simulation-title">Simülasyon Yazılımları</h3>
-                    <ul class="software-list">
-                        <li data-translate="software-flow">Moldflow</li>
-                        <li data-translate="software-simulate">SolidWorks Simulation</li>
-                        <li data-translate="software-ansys">ANSYS</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- CTA Section -->
-    <section class="cta">
-        <div class="container">
-            <div class="cta-content">
-                <h2 data-translate="machines-cta-title">Makine Parkurumuzla Tanışın</h2>
-                <p data-translate="machines-cta-subtitle">En son teknoloji makinelerimizle projelerinizi hayata geçirin. Ücretsiz teknik danışmanlık için bizimle iletişime geçin.</p>
-                <div class="cta-buttons">
-                    <a href="index.html#quote-form" class="btn-primary btn-large" data-translate="machines-cta-button1">Teklif Alın</a>
-                    <a href="gallery.html" class="btn-outline btn-large" data-translate="machines-cta-button2">Galeriyi İnceleyin</a>
+                    <!-- IPRETECH HIZLI DELİK DELME -->
+                    <div class="machine-detail" id="ipretech-delik">
+                        <div class="machine-header">
+                            <h2 data-translate="machine-ipretech-delik-title">IPRETECH HIZLI DELİK DELME</h2>
+                        </div>
+                        <div class="machine-body">
+                            <div class="machine-image">
+                                <img src="imagesmachines/ipretech.jpg" alt="IPRETECH HIZLI DELİK DELME">
+                            </div>
+                            <div class="machine-info">
+                                <p data-translate="machine-ipretech-delik-desc">Hızlı Delik Delme Makinesi</p>
+                                <div class="machine-specs">
+                                    <div class="spec-item">
+                                        <i class="fas fa-cube"></i>
+                                        <span data-translate="machine-ipretech-delik-quantity">Adet: 1</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- EXCELLENT CNC DALMA EREZYON -->
+                    <div class="machine-detail" id="excellent-cnc-dalma">
+                        <div class="machine-header">
+                            <h2 data-translate="machine-excellent-cnc-dalma-title">EXCELLENT CNC DALMA EREZYON</h2>
+                        </div>
+                        <div class="machine-body">
+                            <div class="machine-image">
+                                <img src="imagesmachines/excellentdalma.jpg" alt="EXCELLENT CNC DALMA EREZYON">
+                            </div>
+                            <div class="machine-info">
+                                <p data-translate="machine-excellent-cnc-dalma-desc">CNC Dalma Erezyon Makinesi</p>
+                                <div class="machine-specs">
+                                    <div class="spec-item">
+                                        <i class="fas fa-cube"></i>
+                                        <span data-translate="machine-excellent-cnc-dalma-quantity">Adet: 2</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- GEMİNİ CNC DALMA EREZYON -->
+                    <div class="machine-detail" id="gemini-cnc-dalma">
+                        <div class="machine-header">
+                            <h2 data-translate="machine-gemini-cnc-dalma-title">GEMİNİ CNC DALMA EREZYON</h2>
+                        </div>
+                        <div class="machine-body">
+                            <div class="machine-image">
+                                <img src="imagesmachines/geminidalma.png" alt="GEMİNİ CNC DALMA EREZYON">
+                            </div>
+                            <div class="machine-info">
+                                <p data-translate="machine-gemini-cnc-dalma-desc">CNC Dalma Erezyon Makinesi</p>
+                                <div class="machine-specs">
+                                    <div class="spec-item">
+                                        <i class="fas fa-cube"></i>
+                                        <span data-translate="machine-gemini-cnc-dalma-quantity">Adet: 1</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- UNİVERSAL FREZE -->
+                    <div class="machine-detail" id="universal-freze">
+                        <div class="machine-header">
+                            <h2 data-translate="machine-universal-freze-title">UNİVERSAL FREZE</h2>
+                        </div>
+                        <div class="machine-body">
+                            <div class="machine-image">
+                                <img src="imagesmachines/universal-freze.jpg" alt="UNİVERSAL FREZE">
+                            </div>
+                            <div class="machine-info">
+                                <p data-translate="machine-universal-freze-desc">Universal Freze Tezgahı</p>
+                                <div class="machine-specs">
+                                    <div class="spec-item">
+                                        <i class="fas fa-cube"></i>
+                                        <span data-translate="machine-universal-freze-quantity">Adet: 2</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- WDM RADYAL MATKAP -->
+                    <div class="machine-detail" id="wdm-radyal-matkap">
+                        <div class="machine-header">
+                            <h2 data-translate="machine-wdm-radyal-matkap-title">WDM RADYAL MATKAP</h2>
+                        </div>
+                        <div class="machine-body">
+                            <div class="machine-image">
+                                <img src="imagesmachines/wdmradyal.jpg" alt="WDM RADYAL MATKAP">
+                            </div>
+                            <div class="machine-info">
+                                <p data-translate="machine-wdm-radyal-matkap-desc">Radyal Matkap Tezgahı</p>
+                                <div class="machine-specs">
+                                    <div class="spec-item">
+                                        <i class="fas fa-cube"></i>
+                                        <span data-translate="machine-wdm-radyal-matkap-quantity">Adet: 1</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SATIH TAŞLAMA -->
+                    <div class="machine-detail" id="satih-taslama">
+                        <div class="machine-header">
+                            <h2 data-translate="machine-satih-taslama-title">SATIH TAŞLAMA</h2>
+                        </div>
+                        <div class="machine-body">
+                            <div class="machine-image">
+                                <img src="imagesmachines/manuel-satih-taslama-tezgahi.jpg" alt="SATIH TAŞLAMA">
+                            </div>
+                            <div class="machine-info">
+                                <p data-translate="machine-satih-taslama-desc">Satıh Taşlama Tezgahı</p>
+                                <div class="machine-specs">
+                                    <div class="spec-item">
+                                        <i class="fas fa-cube"></i>
+                                        <span data-translate="machine-satih-taslama-quantity">Adet: 1</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- TOS TORNA -->
+                    <div class="machine-detail" id="tos-torna">
+                        <div class="machine-header">
+                            <h2 data-translate="machine-tos-torna-title">TOS TORNA</h2>
+                        </div>
+                        <div class="machine-body">
+                            <div class="machine-image">
+                                <img src="imagesmachines/TOS.jpeg" alt="TOS TORNA">
+                            </div>
+                            <div class="machine-info">
+                                <p data-translate="machine-tos-torna-desc">Torna Tezgahı</p>
+                                <div class="machine-specs">
+                                    <div class="spec-item">
+                                        <i class="fas fa-cube"></i>
+                                        <span data-translate="machine-tos-torna-quantity">Adet: 1</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- UZAY TESTERE -->
+                    <div class="machine-detail" id="uzay-testere">
+                        <div class="machine-header">
+                            <h2 data-translate="machine-uzay-testere-title">UZAY TESTERE</h2>
+                        </div>
+                        <div class="machine-body">
+                            <div class="machine-image">
+                                <img src="imagesmachines/UZAY.jpeg" alt="UZAY TESTERE">
+                            </div>
+                            <div class="machine-info">
+                                <p data-translate="machine-uzay-testere-desc">Testere Tezgahı</p>
+                                <div class="machine-specs">
+                                    <div class="spec-item">
+                                        <i class="fas fa-cube"></i>
+                                        <span data-translate="machine-uzay-testere-quantity">Adet: 1</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- LAZER MARKALAMA -->
+                    <div class="machine-detail" id="lazer-markalama">
+                        <div class="machine-header">
+                            <h2 data-translate="machine-lazer-markalama-title">LAZER MARKALAMA</h2>
+                        </div>
+                        <div class="machine-body">
+                            <div class="machine-image">
+                                <img src="imagesmachines/LAZERMARKA.jpg" alt="LAZER MARKALAMA">
+                            </div>
+                            <div class="machine-info">
+                                <p data-translate="machine-lazer-markalama-desc">Lazer Markalama Makinesi</p>
+                                <div class="machine-specs">
+                                    <div class="spec-item">
+                                        <i class="fas fa-cube"></i>
+                                        <span data-translate="machine-lazer-markalama-quantity">Adet: 1</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -225,50 +484,123 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h4 data-translate="footer-services-title">Hizmetlerimiz</h4>
+                    <h4 data-translate="footer-company">Şirket</h4>
                     <ul>
+                        <li><a href="about.html" data-translate="footer-about">Hakkımızda</a></li>
+                        <li><a href="services.html" data-translate="footer-services">Hizmetlerimiz</a></li>
                         <li><a href="kalip-tasarimi.html" data-translate="footer-mold-design">Kalıp Tasarımı</a></li>
-                        <li><a href="kalip-uretimi.html" data-translate="footer-mold-production">Kalıp Üretimi</a></li>
-                        <li><a href="cnc-fason.html" data-translate="footer-cnc-machining">CNC Fason İşleme</a></li>
-                        <li><a href="tel-erezyon.html" data-translate="footer-wire-edm">Tel Erezyon</a></li>
-                        <li><a href="plastik-enjeksiyon.html" data-translate="footer-plastic-injection">Plastik Enjeksiyon</a></li>
-                        <li><a href="urun-tasarimi.html" data-translate="footer-product-design">Ürün Tasarımı</a></li>
+
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4 data-translate="footer-company-title">Şirket</h4>
+                    <h4 data-translate="footer-quick-access">Hızlı Erişim</h4>
                     <ul>
-                        <li><a href="about.html" data-translate="footer-about">Hakkımızda</a></li>
                         <li><a href="machines.html" data-translate="footer-machines">Makine Parkuru</a></li>
                         <li><a href="gallery.html" data-translate="footer-gallery">Galeri</a></li>
                         <li><a href="contact.html" data-translate="footer-contact">İletişim</a></li>
+                        <li><a href="index.html#quote-form" data-translate="footer-quote">Teklif İste</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4 data-translate="footer-contact-title">İletişim</h4>
-                    <div class="contact-info">
-                        <p><i class="fas fa-map-marker-alt"></i> <span data-translate="footer-address">İkitelli O.S.B Tormak San. Site. N Blok No: 4, Başakşehir İST.</span></p>
-                        <p><i class="fas fa-phone"></i> <a href="tel:+905327734291">+90 532 773 42 91</a></p>
-                        <p><i class="fas fa-phone"></i> <a href="tel:+902124853028">+90 212 485 30 28</a></p>
-                        <p><i class="fas fa-envelope"></i> <a href="mailto:aymold@aymold.com">aymold@aymold.com</a></p>
-                    </div>
+                    <h4 data-translate="footer-contact">İletişim</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> <span data-translate="footer-address">Organize Sanayi Bölgesi, 1. Cadde No: 123, Konya</span></li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+905327734291">+90 532 773 42 91</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:aymold@aymold.com">aymold@aymold.com</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <div class="footer-logo">
-                    <a href="index.html">
-                        <img src="images/aymold1.png" alt="AY MOLD">
-                    </a>
-                </div>
-                <div class="footer-social">
-                    <a href="https://www.facebook.com/people/AY-Mold/pfbid02Nc9dpDcgGUP4awhM8aVFXAfyiAogqTNmR2GP5zFwbUJHRZWYuxKxAYCf7iptatwZl/?mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/ay.mold/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
-                    <a href="https://wa.me/905327734291" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
-                </div>
+                <p>&copy; 2024 AY MOLD. <span data-translate="footer-rights">Tüm hakları saklıdır.</span></p>
             </div>
         </div>
     </footer>
 
     <script src="script.js"></script>
+    <script>
+        // Machine navigation functionality with improved scroll spy and smooth scrolling
+        document.addEventListener('DOMContentLoaded', function() {
+            const machineNavLinks = document.querySelectorAll('.machine-nav-link');
+            const machineDetails = document.querySelectorAll('.machine-detail');
+
+            // Function to update active state based on scroll position with improved accuracy
+            function updateActiveState() {
+                const scrollPosition = window.scrollY + 150; // Adjusted offset for better detection
+                
+                let currentActive = null;
+                
+                machineDetails.forEach((detail) => {
+                    const detailTop = detail.offsetTop;
+                    const detailBottom = detailTop + detail.offsetHeight;
+                    
+                    if (scrollPosition >= detailTop && scrollPosition < detailBottom) {
+                        currentActive = detail;
+                    }
+                });
+                
+                if (currentActive) {
+                    // Remove active class from all links and details
+                    machineNavLinks.forEach(l => l.classList.remove('active'));
+                    machineDetails.forEach(d => d.classList.remove('active'));
+                    
+                    // Add active class to current detail and corresponding nav link
+                    currentActive.classList.add('active');
+                    const correspondingLink = document.querySelector(`[data-machine="${currentActive.id}"]`);
+                    if (correspondingLink) {
+                        correspondingLink.classList.add('active');
+                        
+                        // Sidebar scroll removed - no longer needed
+                    }
+                }
+            }
+
+            // Add scroll event listener with throttling for better performance
+            let ticking = false;
+            function requestTick() {
+                if (!ticking) {
+                    requestAnimationFrame(updateActiveState);
+                    ticking = true;
+                }
+            }
+
+            window.addEventListener('scroll', requestTick);
+
+            // Add click event listeners for navigation with improved smooth scrolling
+            machineNavLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    // Remove active class from all links and details
+                    machineNavLinks.forEach(l => l.classList.remove('active'));
+                    machineDetails.forEach(d => d.classList.remove('active'));
+                    
+                    // Add active class to clicked link
+                    this.classList.add('active');
+                    
+                    // Show corresponding machine detail
+                    const targetId = this.getAttribute('data-machine');
+                    const targetDetail = document.getElementById(targetId);
+                    if (targetDetail) {
+                        targetDetail.classList.add('active');
+                        
+                        // Smooth scroll to the target with offset for header
+                        const headerHeight = document.querySelector('.navbar').offsetHeight;
+                        const targetPosition = targetDetail.offsetTop - headerHeight - 20;
+                        
+                        window.scrollTo({
+                            top: targetPosition,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+
+            // Initialize active state
+            updateActiveState();
+            
+            // Update active state after images load to ensure accurate positioning
+            window.addEventListener('load', updateActiveState);
+        });
+    </script>
 </body>
 </html> 

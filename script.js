@@ -4,8 +4,17 @@ const translations = {
         // Navigation
         'nav-home': 'Ana Sayfa',
         'nav-services': 'Hizmetler',
+        'nav-machines': 'Makine Parkuru',
+        'nav-gallery': 'Galeri',
         'nav-about': 'Hakkımızda',
         'nav-contact': 'İletişim',
+        'nav-mold-design': 'Kalıp Tasarımı',
+        'nav-mold-production': 'Kalıp Üretimi',
+        'nav-cnc-machining': 'CNC Fason İşleme',
+        'nav-wire-erosion': 'Tel Erezyon Fason Üretim',
+        'nav-wire-edm': 'Tel Erezyon Fason Üretim',
+        'nav-plastic-injection': 'Plastik Enjeksiyon Fason Baskı',
+        'nav-product-design': 'Ürün Tasarımı',
         
         // Hero Section
         'hero-title-1': '#1 Kalıp Üretimi',
@@ -36,27 +45,33 @@ const translations = {
         'features-countries': '+ Ülke',
         'features-countries-desc': 'Yurtiçi ve yurtdışından müşteriler',
         'features-sectors': ' Farklı Sektör',
-        'features-sectors-desc': 'Otomotiv, elektronik, medikal, havacılık',
+        'features-sectors-desc': 'Beyaz Eşya, Elektrik Elektronik, Temizlik Ekipmanları, Mutfak Eşyası, Otomotiv, Bakalit Kalıpları',
         'features-experience': ' Yıllık Tecrübe',
         'features-experience-desc': 'Kalıp üretiminde uzmanlık',
         'features-export': '+ Ülkeye Sipariş',
         'features-export-desc': 'Dünya çapında kalıp ihracatı',
         
         // Channels Section
-        'channels-title': '10+ sektörde kalıp çözümleri',
-        'channels-subtitle': 'Otomotiv, elektronik, medikal, havacılık ve daha fazla sektörde kalıp üretimi. Bu seviyede uzmanlığı başka hiçbir firmada bulamazsınız.',
+        'channels-title': '6 sektörde kalıp çözümleri',
+        'channels-subtitle': 'Beyaz eşya, elektrik elektronik, temizlik ekipmanları, mutfak eşyası, otomotiv ve bakalit kalıpları sektörlerinde kalıp üretimi. Bu seviyede uzmanlığı başka hiçbir firmada bulamazsınız.',
+        'channel-white-goods-title': 'Beyaz Eşya Sektörü',
+        'channel-white-goods-desc': 'Buzdolabı, çamaşır makinesi, bulaşık makinesi gibi beyaz eşyalar için hassas kalıp üretimi. Dayanıklı ve uzun ömürlü kalıp çözümleri.',
+        'channel-white-goods-link': 'Beyaz Eşya Keşfet',
+        'channel-electrical-electronics-title': 'Elektrik Elektronik Sektörü',
+        'channel-electrical-electronics-desc': 'Elektrik ve elektronik cihazlar için hassas kalıp üretimi. PCB, kasa, bağlantı elemanları ve elektronik parçalar için özel tasarımlar.',
+        'channel-electrical-electronics-link': 'Elektrik Elektronik Keşfet',
+        'channel-cleaning-equipment-title': 'Temizlik Ekipmanları Sektörü',
+        'channel-cleaning-equipment-desc': 'Temizlik makineleri ve ekipmanları için kalıp üretimi. Endüstriyel temizlik çözümleri için özel kalıp tasarımları.',
+        'channel-cleaning-equipment-link': 'Temizlik Ekipmanları Keşfet',
+        'channel-kitchenware-title': 'Mutfak Eşyası Sektörü',
+        'channel-kitchenware-desc': 'Mutfak eşyaları ve aletleri için kalıp üretimi. Mutfak gereçleri, saklama kapları ve mutfak aletleri için özel çözümler.',
+        'channel-kitchenware-link': 'Mutfak Eşyası Keşfet',
         'channel-automotive-title': 'Otomotiv Sektörü',
         'channel-automotive-desc': 'Otomotiv parçaları için hassas kalıp üretimi. Motor, şanzıman, fren sistemi ve gövde parçaları için özel çözümler.',
         'channel-automotive-link': 'Otomotiv Keşfet',
-        'channel-electronics-title': 'Elektronik Sektörü',
-        'channel-electronics-desc': 'Elektronik cihazlar için hassas kalıp üretimi. PCB, kasa ve bağlantı elemanları için özel tasarımlar.',
-        'channel-electronics-link': 'Elektronik Keşfet',
-        'channel-medical-title': 'Medikal Sektörü',
-        'channel-medical-desc': 'Medikal cihazlar için steril kalıp üretimi. Cerrahi aletler ve implantlar için özel malzeme çözümleri.',
-        'channel-medical-link': 'Medikal Keşfet',
-        'channel-aviation-title': 'Havacılık Sektörü',
-        'channel-aviation-desc': 'Havacılık parçaları için yüksek hassasiyetli kalıp üretimi. Uçak ve helikopter parçaları için özel çözümler.',
-        'channel-aviation-link': 'Havacılık Keşfet',
+        'channel-bakelite-title': 'Bakalit Kalıpları Sektörü',
+        'channel-bakelite-desc': 'Bakalit malzeme kalıpları için özel üretim. Elektrik yalıtımı ve ısı direnci için özel tasarım kalıp çözümleri.',
+        'channel-bakelite-link': 'Bakalit Kalıpları Keşfet',
         
         // Testimonials Section
         'testimonials-title': 'İyi şirketlerle çalışıyorsunuz',
@@ -91,10 +106,12 @@ const translations = {
         'form-company-placeholder': 'Firmanızın adı',
         'form-sector': 'Sektör',
         'form-sector-select': 'Sektör Seçiniz',
+        'form-sector-white-goods': 'Beyaz Eşya',
+        'form-sector-electrical-electronics': 'Elektrik Elektronik',
+        'form-sector-cleaning-equipment': 'Temizlik Ekipmanları',
+        'form-sector-kitchenware': 'Mutfak Eşyası',
         'form-sector-automotive': 'Otomotiv',
-        'form-sector-electronics': 'Elektronik',
-        'form-sector-medical': 'Medikal',
-        'form-sector-aviation': 'Havacılık',
+        'form-sector-bakelite': 'Bakalit Kalıpları',
         'form-sector-other': 'Diğer',
         'form-service': 'Hizmet Türü',
         'form-service-select': 'Hizmet Seçiniz',
@@ -116,6 +133,16 @@ const translations = {
         // Quote Section
         'quote-title': 'Ücretsiz Teklif Alın',
         'quote-subtitle': 'Projeniz için özel kalıp çözümlerimiz hakkında bilgi almak için formu doldurun. 24 saat içinde size dönüş yapacağız.',
+        'quote-form-name': 'Ad Soyad *',
+        'quote-form-company': 'Firma Adı *',
+        'quote-form-email': 'E-posta *',
+        'quote-form-phone': 'Telefon *',
+        'quote-form-sector': 'Sektör',
+        'quote-form-quantity': 'Adet',
+        'quote-form-description': 'Proje Açıklaması *',
+        'quote-form-file': 'Dosya Ekle (Opsiyonel)',
+        'quote-form-file-note': 'PDF, DWG, STEP, STL dosyaları kabul edilir (Max: 10MB)',
+        'quote-form-submit': 'Teklif İste',
         
         // Services Page
         'services-title': 'Hizmetlerimiz',
@@ -132,14 +159,18 @@ const translations = {
         'service-maintenance-desc': 'Mevcut kalıplarınızın bakımı ve onarımı. Performans optimizasyonu hizmetleri.',
         'industries-title': 'Hizmet Verdiğimiz Sektörler',
         'industries-subtitle': 'Farklı sektörlerde uzmanlaşmış çözümler',
+        'industry-white-goods-title': 'Beyaz Eşya',
+        'industry-white-goods-desc': 'Buzdolabı, çamaşır makinesi, bulaşık makinesi gibi beyaz eşyalar için hassas kalıp üretimi.',
+        'industry-electrical-electronics-title': 'Elektrik Elektronik',
+        'industry-electrical-electronics-desc': 'Elektrik ve elektronik cihazlar için özel kalıp tasarımları ve üretimi.',
+        'industry-cleaning-equipment-title': 'Temizlik Ekipmanları',
+        'industry-cleaning-equipment-desc': 'Temizlik makineleri ve ekipmanları için kalıp üretimi ve özel tasarımlar.',
+        'industry-kitchenware-title': 'Mutfak Eşyası',
+        'industry-kitchenware-desc': 'Mutfak eşyaları ve aletleri için kalıp üretimi ve özel çözümler.',
         'industry-automotive-title': 'Otomotiv',
         'industry-automotive-desc': 'Otomotiv sektörü için hassas kalıp üretimi ve parça çözümleri.',
-        'industry-electronics-title': 'Elektronik',
-        'industry-electronics-desc': 'Elektronik cihazlar için özel kalıp tasarımları ve üretimi.',
-        'industry-medical-title': 'Medikal',
-        'industry-medical-desc': 'Medikal cihazlar için hijyenik ve hassas kalıp çözümleri.',
-        'industry-aviation-title': 'Havacılık',
-        'industry-aviation-desc': 'Havacılık sektörü için yüksek kaliteli ve güvenilir kalıplar.',
+        'industry-bakelite-title': 'Bakalit Kalıpları',
+        'industry-bakelite-desc': 'Bakalit malzeme kalıpları için özel üretim ve tasarım çözümleri.',
         
         // Footer Sections
         'footer-services-title': 'Hizmetlerimiz',
@@ -150,26 +181,23 @@ const translations = {
         'footer-services-plastic': 'Plastik Enjeksiyon Kalıpları',
         'footer-services-metal': 'Metal Kalıpları',
         'footer-services-maintenance': 'Kalıp Bakımı',
-        'footer-sectors-title': 'Sektörler',
-        'footer-sectors-automotive': 'Otomotiv',
-        'footer-sectors-electronics': 'Elektronik',
-        'footer-sectors-medical': 'Medikal',
-        'footer-sectors-aviation': 'Havacılık',
+        'footer-quick-access-title': 'Hızlı Erişim',
+        'footer-quick-machines': 'Makine Parkuru',
+        'footer-quick-gallery': 'Galeri',
+        'footer-quick-contact': 'İletişim',
+        'footer-quick-quote': 'Teklif Al',
         'footer-company-title': 'Şirket',
         'footer-company-about': 'Hakkımızda',
-        'footer-company-certified': 'Kalite Belgelendi',
-        'footer-company-references': 'Referanslar',
-        'footer-company-career': 'Kariyer',
+        'footer-company-services': 'Hizmetlerimiz',
+        'footer-company-design': 'Kalıp Tasarımı',
+        'footer-company-injection': 'Plastik Enjeksiyon',
         'footer-contact-title': 'İletişim Bilgileri',
         'footer-contact-address': 'Adres:',
         'footer-contact-phone': 'Telefon:',
         'footer-contact-email': 'E-posta:',
-        'footer-contact-hours': 'Çalışma Saatleri:',
         'footer-contact-address-text': 'Organize Sanayi Bölgesi',
         'footer-contact-address-text-2': 'A Blok No: 15',
         'footer-contact-address-text-3': '34000 İstanbul, Türkiye',
-        'footer-contact-hours-text': 'Pazartesi - Cuma: 08:00 - 18:00',
-        'footer-contact-hours-text-2': 'Cumartesi: 08:00 - 14:00',
         
         // About Page
         'about-title': 'Hakkımızda',
@@ -183,14 +211,160 @@ const translations = {
         
         // Social Media
         'social-instagram': 'Instagram',
-        'social-whatsapp': 'WhatsApp'
+        'social-whatsapp': 'WhatsApp',
+        
+        // Machines Page
+        'machines-cta-title': 'Makine Parkurumuzla Tanışın',
+        'machines-cta-subtitle': 'En son teknoloji makinelerimizle projelerinizi hayata geçirin. Ücretsiz teknik danışmanlık için bizimle iletişime geçin.',
+        'machines-cta-button1': 'Teklif Alın',
+        'machines-cta-button2': 'Galeriyi İnceleyin',
+        
+        // Gallery Page
+        'gallery-cta-title': 'Projelerinizi Hayata Geçirin',
+        'gallery-cta-subtitle': 'Galerimizde gördüğünüz kalite ve hassasiyeti projelerinizde de deneyimleyin. Ücretsiz teknik danışmanlık için bizimle iletişime geçin.',
+        'gallery-cta-button-1': 'Teklif Alın',
+        'gallery-cta-button-2': 'Makine Parkuru',
+        
+        // Footer Additional
+        'footer-company-title': 'Şirket',
+        'footer-contact-title': 'İletişim',
+        
+        // Machines Page - Hero Section
+        'machines-hero-title': 'Makine Parkuru',
+        'machines-hero-subtitle': 'En son teknoloji CNC makineleri ve hassas işleme merkezleri',
+        
+        // Machines Page - CNC Section
+        'machines-cnc-title': 'CNC İşleme Merkezleri',
+        'machines-cnc-subtitle': '5 eksen işleme kapasitesi ile karmaşık geometriler için hassas çözümler',
+        
+        // Machines Page - Machine Cards
+        'machine-5axis-title': '5 Eksen CNC İşleme Merkezi',
+        'machine-5axis-desc': 'Karmaşık geometriler ve zorlu projeler için 5 eksen işleme kapasitesi. Mikron hassasiyetinde işleme.',
+        'machine-5axis-size': 'Çalışma Alanı: 800x600x500mm',
+        'machine-5axis-speed': 'Maksimum Hız: 12,000 RPM',
+        'machine-5axis-tools': 'Takım Sayısı: 24',
+        
+        'machine-3axis-title': '3 Eksen CNC İşleme Merkezi',
+        'machine-3axis-desc': 'Yüksek hassasiyetli 3 eksen işleme merkezi. Kalıp üretimi için optimize edilmiş performans.',
+        'machine-3axis-size': 'Çalışma Alanı: 1000x800x600mm',
+        'machine-3axis-speed': 'Maksimum Hız: 15,000 RPM',
+        'machine-3axis-tools': 'Takım Sayısı: 30',
+        
+        'machine-edm-title': 'EDM Tel Erozyon',
+        'machine-edm-desc': 'Yüksek hassasiyetli tel erozyon makinesi. Sert malzemeler için ideal çözüm.',
+        'machine-edm-size': 'Çalışma Alanı: 400x300x200mm',
+        'machine-edm-accuracy': 'Hassasiyet: ±0.005mm',
+        'machine-edm-wire': 'Tel Çapı: 0.1-0.3mm',
+        
+        // Machines Page - Measurement Equipment
+        'machines-measurement-title': 'Ölçüm Ekipmanları',
+        'machines-measurement-subtitle': 'Kalite kontrol için gelişmiş ölçüm sistemleri',
+        
+        'equipment-cmm-title': '3D Koordinat Ölçüm Makinesi',
+        'equipment-cmm-desc': 'Yüksek hassasiyetli 3D ölçüm sistemi. Mikron seviyesinde ölçüm kapasitesi.',
+        'equipment-cmm-accuracy': 'Hassasiyet: ±0.003mm',
+        
+        'equipment-microscope-title': 'Dijital Mikroskop',
+        'equipment-microscope-desc': 'Yüzey kalitesi kontrolü için dijital mikroskop sistemi.',
+        'equipment-microscope-magnification': 'Büyütme: 50x-500x',
+        
+        'equipment-caliper-title': 'Dijital Kumpas',
+        'equipment-caliper-desc': 'Hassas ölçüm için dijital kumpas setleri.',
+        'equipment-caliper-accuracy': 'Hassasiyet: ±0.01mm',
+        
+        // Machines Page - Software Section
+        'machines-software-title': 'CAD/CAM Yazılımları',
+        'machines-software-subtitle': 'En son teknoloji tasarım ve üretim yazılımları',
+        
+        'software-cad-title': 'CAD Yazılımları',
+        'software-solidworks': 'Solidworks',
+        'software-cimatron': 'Cimatron',
+        
+        'software-cam-title': 'CAM Yazılımları',
+        'software-esprit': 'Esprit TNG',
+        'software-cimatron': 'Cimatron',
+        
+        'software-simulation-title': 'Simülasyon Yazılımları',
+        'software-flow': 'Moldflow',
+        'software-simulate': 'SolidWorks Simulation',
+        'software-ansys': 'ANSYS',
+        
+        // Gallery Page - Hero Section
+        'gallery-hero-title': 'Galeri',
+        'gallery-hero-subtitle': 'Tamamlanan projelerimizden örnekler ve çalışma ortamımız',
+        
+        // Gallery Page - Filter Buttons
+        'filter-all': 'Tümü',
+        'filter-molds': 'Kalıplar',
+        'filter-machines': 'Makineler',
+        'filter-projects': 'Projeler',
+        'filter-workshop': 'Atölye',
+        
+        // Gallery Page - Gallery Items
+        'gallery-mold1-title': 'Beyaz Eşya Kalıbı',
+        'gallery-mold1-desc': 'Buzdolabı parçası için üretilen hassas kalıp',
+        'gallery-mold2-title': 'Elektrik Elektronik Kalıbı',
+        'gallery-mold2-desc': 'Elektrik cihazları için özel tasarım kalıp',
+        'gallery-mold3-title': 'Temizlik Ekipmanları Kalıbı',
+        'gallery-mold3-desc': 'Temizlik makineleri için özel tasarım kalıp',
+        
+        'gallery-machine1-title': '5 Eksen CNC Makinesi',
+        'gallery-machine1-desc': 'Karmaşık geometriler için 5 eksen işleme',
+        'gallery-machine2-title': 'EDM Tel Erozyon',
+        'gallery-machine2-desc': 'Sert malzemeler için hassas işleme',
+        'gallery-machine3-title': '3 Eksen CNC Makinesi',
+        'gallery-machine3-desc': 'Yüksek hassasiyetli 3 eksen işleme',
+        
+        'gallery-project1-title': 'Mutfak Eşyası Projesi',
+        'gallery-project1-desc': 'Mutfak gereçleri için üretilen özel kalıp',
+        'gallery-project2-title': 'Bakalit Kalıpları Projesi',
+        'gallery-project2-desc': 'Elektrik yalıtımı için üretilen bakalit kalıp',
+        'gallery-project3-title': 'Otomotiv Projesi',
+        'gallery-project3-desc': 'Otomotiv parçaları için üretilen hassas kalıp',
+        
+        'gallery-workshop1-title': 'Ana Atölye',
+        'gallery-workshop1-desc': 'Modern CNC makineleri ile donatılmış atölye',
+        'gallery-workshop2-title': 'Kalite Kontrol',
+        'gallery-workshop2-desc': 'Hassas ölçüm ekipmanları ile kalite kontrol',
+        'gallery-workshop3-title': 'Tasarım Ofisi',
+        'gallery-workshop3-desc': 'CAD/CAM yazılımları ile tasarım süreci',
+        
+        'gallery-view-btn': 'Görüntüle',
+        
+        // Footer Links
+        'footer-mold-design': 'Kalıp Tasarımı',
+        'footer-mold-production': 'Kalıp Üretimi',
+        'footer-cnc-machining': 'CNC Fason İşleme',
+        'footer-wire-edm': 'Tel Erezyon',
+        'footer-plastic-injection': 'Plastik Enjeksiyon',
+        'footer-product-design': 'Ürün Tasarımı',
+        'footer-about': 'Hakkımızda',
+        'footer-machines': 'Makine Parkuru',
+        'footer-gallery': 'Galeri',
+        'footer-contact': 'İletişim',
+        'footer-address': 'İkitelli O.S.B Tormak San. Site. N Blok No: 4, Başakşehir İST.',
+        
+        // CNC Outsourcing Page
+        'cnc_outsourcing.tech4_description': 'Solidworks, Cimatron, Esprit TNG',
+        
+        // Service Mold Design Page
+        'service-mold-design-tech1-desc': 'Solidworks, Cimatron'
     },
     ru: {
         // Navigation
         'nav-home': 'Главная',
         'nav-services': 'Услуги',
+        'nav-machines': 'Парк Станков',
+        'nav-gallery': 'Галерея',
         'nav-about': 'О нас',
         'nav-contact': 'Контакты',
+        'nav-mold-design': 'Проектирование Пресс-форм',
+        'nav-mold-production': 'Производство Пресс-форм',
+        'nav-cnc-machining': 'Обработка с ЧПУ',
+        'nav-wire-erosion': 'Электроэрозионная Проволока',
+        'nav-wire-edm': 'Электроэрозионная Проволока',
+        'nav-plastic-injection': 'Пластиковое Литье',
+        'nav-product-design': 'Проектирование Продукта',
         
         // Hero Section
         'hero-title-1': '#1 Производство Пресс-форм',
@@ -221,27 +395,33 @@ const translations = {
         'features-countries': '+ Страны',
         'features-countries-desc': 'Клиенты из внутреннего и международного рынков',
         'features-sectors': ' Различных Секторов',
-        'features-sectors-desc': 'Автомобильная промышленность, электроника, медицина, авиация',
+        'features-sectors-desc': 'Бытовая техника, Электроника, Оборудование для уборки, Кухонная утварь, Автомобильная промышленность, Пресс-формы Бакелита',
         'features-experience': ' Лет Опыта',
         'features-experience-desc': 'Экспертиза в производстве пресс-форм',
         'features-export': '+ Страны Заказов',
         'features-export-desc': 'Мировой экспорт пресс-форм',
         
         // Channels Section
-        'channels-title': 'Решения для пресс-форм в 10+ секторах',
-        'channels-subtitle': 'Производство пресс-форм в автомобильной промышленности, электронике, медицине, авиации и других секторах. Такого уровня экспертизы вы не найдете ни в одной другой компании.',
+        'channels-title': 'Решения для пресс-форм в 6 секторах',
+        'channels-subtitle': 'Производство пресс-форм в секторах бытовой техники, электроники, оборудования для уборки, кухонной утвари, автомобильной промышленности и пресс-форм бакелита. Такого уровня экспертизы вы не найдете ни в одной другой компании.',
+        'channel-white-goods-title': 'Сектор Бытовая Техника',
+        'channel-white-goods-desc': 'Точное производство пресс-форм для бытовой техники, такой как холодильники, стиральные машины, посудомоечные машины. Долговечные и долговечные решения для пресс-форм.',
+        'channel-white-goods-link': 'Изучить Бытовая Техника',
+        'channel-electrical-electronics-title': 'Сектор Электроника',
+        'channel-electrical-electronics-desc': 'Точное производство пресс-форм для электрических и электронных устройств. Специальные конструкции для печатных плат, корпусов, соединительных элементов и электронных деталей.',
+        'channel-electrical-electronics-link': 'Изучить Электронику',
+        'channel-cleaning-equipment-title': 'Сектор Оборудование для Уборки',
+        'channel-cleaning-equipment-desc': 'Производство пресс-форм для машин и оборудования для уборки. Специальные конструкции пресс-форм для промышленных решений для уборки.',
+        'channel-cleaning-equipment-link': 'Изучить Оборудование для Уборки',
+        'channel-kitchenware-title': 'Сектор Кухонная Утварь',
+        'channel-kitchenware-desc': 'Производство пресс-форм для кухонных предметов и инструментов. Специальные решения для кухонных принадлежностей, контейнеров для хранения и кухонных инструментов.',
+        'channel-kitchenware-link': 'Изучить Кухонная Утварь',
         'channel-automotive-title': 'Автомобильный Сектор',
         'channel-automotive-desc': 'Точное производство пресс-форм для автомобильных деталей. Специальные решения для двигателя, трансмиссии, тормозной системы и кузовных деталей.',
         'channel-automotive-link': 'Изучить Автомобильный',
-        'channel-electronics-title': 'Электронный Сектор',
-        'channel-electronics-desc': 'Точное производство пресс-форм для электронных устройств. Специальные конструкции для печатных плат, корпусов и соединительных элементов.',
-        'channel-electronics-link': 'Изучить Электронику',
-        'channel-medical-title': 'Медицинский Сектор',
-        'channel-medical-desc': 'Стерильное производство пресс-форм для медицинских устройств. Специальные материальные решения для хирургических инструментов и имплантатов.',
-        'channel-medical-link': 'Изучить Медицинский',
-        'channel-aviation-title': 'Авиационный Сектор',
-        'channel-aviation-desc': 'Высокоточное производство пресс-форм для авиационных деталей. Специальные решения для деталей самолетов и вертолетов.',
-        'channel-aviation-link': 'Изучить Авиацию',
+        'channel-bakelite-title': 'Сектор Пресс-формы Бакелита',
+        'channel-bakelite-desc': 'Специальное производство для пресс-форм из бакелитового материала. Специальные решения для пресс-форм для электрической изоляции и термостойкости.',
+        'channel-bakelite-link': 'Изучить Пресс-формы Бакелита',
         
         // Testimonials Section
         'testimonials-title': 'Вы работаете с хорошими компаниями',
@@ -276,12 +456,146 @@ const translations = {
         'form-company-placeholder': 'Название вашей компании',
         'form-sector': 'Сектор',
         'form-sector-select': 'Выберите Сектор',
+        'form-sector-white-goods': 'Бытовая Техника',
+        'form-sector-electrical-electronics': 'Электроника',
+        'form-sector-cleaning-equipment': 'Оборудование для Уборки',
+        'form-sector-kitchenware': 'Кухонная Утварь',
         'form-sector-automotive': 'Автомобильная промышленность',
-        'form-sector-electronics': 'Электроника',
-        'form-sector-medical': 'Медицина',
-        'form-sector-aviation': 'Авиация',
+        'form-sector-bakelite': 'Пресс-формы Бакелита',
         'form-sector-other': 'Другое',
         'form-service': 'Услуга',
+        
+        // Machines Page
+        'machines-cta-title': 'Познакомьтесь с Нашим Парком Станков',
+        'machines-cta-subtitle': 'Воплотите в жизнь ваши проекты с нашими станками последнего поколения. Свяжитесь с нами для бесплатной технической консультации.',
+        'machines-cta-button1': 'Получить Предложение',
+        'machines-cta-button2': 'Посмотреть Галерею',
+        
+        // Gallery Page
+        'gallery-cta-title': 'Воплотите в Жизнь Ваши Проекты',
+        'gallery-cta-subtitle': 'Испытайте качество и точность, которые вы видите в нашей галерее, в ваших проектах тоже. Свяжитесь с нами для бесплатной технической консультации.',
+        'gallery-cta-button-1': 'Получить Предложение',
+        'gallery-cta-button-2': 'Парк Станков',
+        
+        // Footer Additional
+        'footer-company-title': 'Компания',
+        'footer-contact-title': 'Контакты',
+        
+        // Machines Page - Hero Section
+        'machines-hero-title': 'Парк Станков',
+        'machines-hero-subtitle': 'Станки с ЧПУ последнего поколения и центры точной обработки',
+        
+        // Machines Page - CNC Section
+        'machines-cnc-title': 'Центры Обработки с ЧПУ',
+        'machines-cnc-subtitle': 'Точные решения для сложной геометрии с возможностью 5-осевой обработки',
+        
+        // Machines Page - Machine Cards
+        'machine-5axis-title': '5-Осевой Центр Обработки с ЧПУ',
+        'machine-5axis-desc': 'Возможность 5-осевой обработки для сложной геометрии и сложных проектов. Обработка с микронной точностью.',
+        'machine-5axis-size': 'Рабочая Область: 800x600x500мм',
+        'machine-5axis-speed': 'Максимальная Скорость: 12,000 об/мин',
+        'machine-5axis-tools': 'Количество Инструментов: 24',
+        
+        'machine-3axis-title': '3-Осевой Центр Обработки с ЧПУ',
+        'machine-3axis-desc': 'Высокоточный 3-осевой центр обработки. Производительность оптимизирована для производства пресс-форм.',
+        'machine-3axis-size': 'Рабочая Область: 1000x800x600мм',
+        'machine-3axis-speed': 'Максимальная Скорость: 15,000 об/мин',
+        'machine-3axis-tools': 'Количество Инструментов: 30',
+        
+        'machine-edm-title': 'Электроэрозионная Проволока',
+        'machine-edm-desc': 'Высокоточная машина электроэрозионной проволоки. Идеальное решение для твердых материалов.',
+        'machine-edm-size': 'Рабочая Область: 400x300x200мм',
+        'machine-edm-accuracy': 'Точность: ±0.005мм',
+        'machine-edm-wire': 'Диаметр Проволоки: 0.1-0.3мм',
+        
+        // Machines Page - Measurement Equipment
+        'machines-measurement-title': 'Измерительное Оборудование',
+        'machines-measurement-subtitle': 'Передовые измерительные системы для контроля качества',
+        
+        'equipment-cmm-title': '3D Координатно-измерительная Машина',
+        'equipment-cmm-desc': 'Высокоточная 3D измерительная система. Возможность измерения на микронном уровне.',
+        'equipment-cmm-accuracy': 'Точность: ±0.003мм',
+        
+        'equipment-microscope-title': 'Цифровой Микроскоп',
+        'equipment-microscope-desc': 'Система цифрового микроскопа для контроля качества поверхности.',
+        'equipment-microscope-magnification': 'Увеличение: 50x-500x',
+        
+        'equipment-caliper-title': 'Цифровой Штангенциркуль',
+        'equipment-caliper-desc': 'Наборы цифровых штангенциркулей для точного измерения.',
+        'equipment-caliper-accuracy': 'Точность: ±0.01мм',
+        
+        // Machines Page - Software Section
+        'machines-software-title': 'CAD/CAM Программное Обеспечение',
+        'machines-software-subtitle': 'Программное обеспечение для проектирования и производства последнего поколения',
+        
+        'software-cad-title': 'CAD Программное Обеспечение',
+        'software-solidworks': 'Solidworks',
+        'software-cimatron': 'Cimatron',
+        
+        'software-cam-title': 'CAM Программное Обеспечение',
+        'software-esprit': 'Esprit TNG',
+        'software-cimatron': 'Cimatron',
+        
+        'software-simulation-title': 'Программное Обеспечение для Симуляции',
+        'software-flow': 'Moldflow',
+        'software-simulate': 'SolidWorks Simulation',
+        'software-ansys': 'ANSYS',
+        
+        // Gallery Page - Hero Section
+        'gallery-hero-title': 'Галерея',
+        'gallery-hero-subtitle': 'Примеры наших завершенных проектов и рабочей среды',
+        
+        // Gallery Page - Filter Buttons
+        'filter-all': 'Все',
+        'filter-molds': 'Пресс-формы',
+        'filter-machines': 'Станки',
+        'filter-projects': 'Проекты',
+        'filter-workshop': 'Мастерская',
+        
+        // Gallery Page - Gallery Items
+        'gallery-mold1-title': 'Пресс-форма для Бытовой Техники',
+        'gallery-mold1-desc': 'Точная пресс-форма, изготовленная для деталей холодильника',
+        'gallery-mold2-title': 'Пресс-форма для Электроники',
+        'gallery-mold2-desc': 'Специальная пресс-форма для электрических устройств',
+        'gallery-mold3-title': 'Пресс-форма для Оборудования Уборки',
+        'gallery-mold3-desc': 'Специальная пресс-форма для машин уборки',
+        
+        'gallery-machine1-title': '5-Осевой Станок с ЧПУ',
+        'gallery-machine1-desc': '5-осевая обработка для сложной геометрии',
+        'gallery-machine2-title': 'Электроэрозионная Проволока',
+        'gallery-machine2-desc': 'Точная обработка для твердых материалов',
+        'gallery-machine3-title': '3-Осевой Станок с ЧПУ',
+        'gallery-machine3-desc': 'Высокоточная 3-осевая обработка',
+        
+        'gallery-project1-title': 'Проект Кухонная Утварь',
+        'gallery-project1-desc': 'Специальная пресс-форма, изготовленная для кухонных принадлежностей',
+        'gallery-project2-title': 'Проект Пресс-формы Бакелита',
+        'gallery-project2-desc': 'Пресс-форма бакелита, изготовленная для электрической изоляции',
+        'gallery-project3-title': 'Автомобильный Проект',
+        'gallery-project3-desc': 'Точная пресс-форма, изготовленная для автомобильных деталей',
+        
+        'gallery-workshop1-title': 'Главная Мастерская',
+        'gallery-workshop1-desc': 'Мастерская, оснащенная современными станками с ЧПУ',
+        'gallery-workshop2-title': 'Контроль Качества',
+        'gallery-workshop2-desc': 'Контроль качества с точным измерительным оборудованием',
+        'gallery-workshop3-title': 'Конструкторский Офис',
+        'gallery-workshop3-desc': 'Процесс проектирования с CAD/CAM программным обеспечением',
+        
+        'gallery-view-btn': 'Просмотр',
+        
+        // Footer Links
+        'footer-mold-design': 'Проектирование Пресс-форм',
+        'footer-mold-production': 'Производство Пресс-форм',
+        'footer-cnc-machining': 'Обработка с ЧПУ',
+        'footer-wire-edm': 'Электроэрозионная Проволока',
+        'footer-plastic-injection': 'Пластиковое Литье',
+        'footer-product-design': 'Проектирование Продукта',
+        'footer-about': 'О нас',
+        'footer-machines': 'Парк Станков',
+        'footer-gallery': 'Галерея',
+        'footer-contact': 'Контакты',
+        'footer-address': 'Икителли О.С.Б Тормак Сан. Сайт. Н Блок № 4, Башакшехир ИСТ.',
+        
         'form-service-select': 'Выберите Услугу',
         'form-service-plastic': 'Пластиковая Пресс-форма для Литья',
         'form-service-metal': 'Металлическая Пресс-форма',
@@ -301,6 +615,16 @@ const translations = {
         // Quote Section
         'quote-title': 'Получить Бесплатное Предложение',
         'quote-subtitle': 'Заполните форму, чтобы получить информацию о наших специальных решениях для пресс-форм для вашего проекта. Мы свяжемся с вами в течение 24 часов.',
+        'quote-form-name': 'Имя *',
+        'quote-form-company': 'Компания *',
+        'quote-form-email': 'Электронная почта *',
+        'quote-form-phone': 'Телефон *',
+        'quote-form-sector': 'Сектор',
+        'quote-form-quantity': 'Количество',
+        'quote-form-description': 'Описание Проекта *',
+        'quote-form-file': 'Добавить Файл (Опционально)',
+        'quote-form-file-note': 'Принимаются файлы PDF, DWG, STEP, STL (Макс: 10МБ)',
+        'quote-form-submit': 'Запросить Предложение',
         
         // Services Page
         'services-title': 'Наши Услуги',
@@ -317,14 +641,18 @@ const translations = {
         'service-maintenance-desc': 'Обслуживание и ремонт ваших существующих пресс-форм. Услуги по оптимизации производительности.',
         'industries-title': 'Секторы, в которых мы работаем',
         'industries-subtitle': 'Специализированные решения в разных секторах',
+        'industry-white-goods-title': 'Бытовая Техника',
+        'industry-white-goods-desc': 'Точное производство пресс-форм для бытовой техники, такой как холодильники, стиральные машины, посудомоечные машины.',
+        'industry-electrical-electronics-title': 'Электроника',
+        'industry-electrical-electronics-desc': 'Специальные дизайны и производство для электрических и электронных устройств.',
+        'industry-cleaning-equipment-title': 'Оборудование для Уборки',
+        'industry-cleaning-equipment-desc': 'Производство пресс-форм и специальные дизайны для машин и оборудования для уборки.',
+        'industry-kitchenware-title': 'Кухонная Утварь',
+        'industry-kitchenware-desc': 'Производство пресс-форм и специальные решения для кухонных предметов и инструментов.',
         'industry-automotive-title': 'Автомобильная промышленность',
         'industry-automotive-desc': 'Точное производство пресс-форм и решения для автомобильной промышленности.',
-        'industry-electronics-title': 'Электроника',
-        'industry-electronics-desc': 'Специальные дизайны и производство для электронных устройств.',
-        'industry-medical-title': 'Медицина',
-        'industry-medical-desc': 'Гигиенические и точные решения для медицинских устройств.',
-        'industry-aviation-title': 'Авиация',
-        'industry-aviation-desc': 'Высококачественные и надежные пресс-формы для авиационной промышленности.',
+        'industry-bakelite-title': 'Пресс-формы Бакелита',
+        'industry-bakelite-desc': 'Специальное производство и дизайн-решения для пресс-форм из бакелитового материала.',
         
         // Footer Sections
         'footer-services-title': 'Наши Услуги',
@@ -335,26 +663,29 @@ const translations = {
         'footer-services-plastic': 'Пластиковые Пресс-формы для Литья',
         'footer-services-metal': 'Металлические Пресс-формы',
         'footer-services-maintenance': 'Обслуживание Пресс-форм',
-        'footer-sectors-title': 'Секторы',
-        'footer-sectors-automotive': 'Автомобильная промышленность',
-        'footer-sectors-electronics': 'Электроника',
-        'footer-sectors-medical': 'Медицина',
-        'footer-sectors-aviation': 'Авиация',
+        'footer-quick-access-title': 'Быстрый Доступ',
+        'footer-quick-machines': 'Парк Станков',
+        'footer-quick-gallery': 'Галерея',
+        'footer-quick-contact': 'Контакты',
+        'footer-quick-quote': 'Получить Предложение',
         'footer-company-title': 'Компания',
         'footer-company-about': 'О нас',
-        'footer-company-certified': 'Качество Сертифицировано',
-        'footer-company-references': 'Ссылки',
-        'footer-company-career': 'Карьера',
+        'footer-company-services': 'Наши Услуги',
+        'footer-company-design': 'Проектирование Пресс-форм',
+        'footer-company-injection': 'Пластиковое Литье',
         'footer-contact-title': 'Контактная Информация',
         'footer-contact-address': 'Адрес:',
         'footer-contact-phone': 'Телефон:',
         'footer-contact-email': 'Электронная почта:',
-        'footer-contact-hours': 'Рабочие Часы:',
         'footer-contact-address-text': 'Организованная Промышленная Зона',
         'footer-contact-address-text-2': 'Стамбул, Турция',
         'footer-contact-address-text-3': 'Блок А, № 15, 34000, Стамбул, Турция',
-        'footer-contact-hours-text': 'Понедельник - Пятница: 08:00 - 18:00',
-        'footer-contact-hours-text-2': 'Суббота: 08:00 - 14:00',
+        
+        // CNC Outsourcing Page
+        'cnc_outsourcing.tech4_description': 'Solidworks, Cimatron, Esprit TNG',
+        
+        // Service Mold Design Page
+        'service-mold-design-tech1-desc': 'Solidworks, Cimatron',
         
         // About Page
         'about-title': 'О нас',
@@ -374,8 +705,17 @@ const translations = {
         // Navigation
         'nav-home': 'Home',
         'nav-services': 'Services',
+        'nav-machines': 'Machine Park',
+        'nav-gallery': 'Gallery',
         'nav-about': 'About',
         'nav-contact': 'Contact',
+        'nav-mold-design': 'Mold Design',
+        'nav-mold-production': 'Mold Production',
+        'nav-cnc-machining': 'CNC Machining',
+        'nav-wire-erosion': 'Wire EDM Production',
+        'nav-wire-edm': 'Wire EDM Production',
+        'nav-plastic-injection': 'Plastic Injection Molding',
+        'nav-product-design': 'Product Design',
         
         // Hero Section
         'hero-title-1': '#1 Mold Manufacturing',
@@ -406,27 +746,33 @@ const translations = {
         'features-countries': '+ Countries',
         'features-countries-desc': 'Customers from domestic and international markets',
         'features-sectors': ' Different Sectors',
-        'features-sectors-desc': 'Automotive, electronics, medical, aviation',
+        'features-sectors-desc': 'White Goods, Electrical Electronics, Cleaning Equipment, Kitchenware, Automotive, Bakelite Molds',
         'features-experience': ' Years Experience',
         'features-experience-desc': 'Expertise in mold manufacturing',
         'features-export': '+ Countries Orders',
         'features-export-desc': 'Worldwide mold export',
         
         // Channels Section
-        'channels-title': 'Mold solutions in 10+ sectors',
-        'channels-subtitle': 'Mold manufacturing in automotive, electronics, medical, aviation and more sectors. You won\'t find this level of expertise in any other company.',
+        'channels-title': 'Mold solutions in 6 sectors',
+        'channels-subtitle': 'Mold manufacturing in white goods, electrical electronics, cleaning equipment, kitchenware, automotive and bakelite molds sectors. You won\'t find this level of expertise in any other company.',
+        'channel-white-goods-title': 'White Goods Sector',
+        'channel-white-goods-desc': 'Precision mold manufacturing for white goods like refrigerators, washing machines, dishwashers. Durable and long-lasting mold solutions.',
+        'channel-white-goods-link': 'Explore White Goods',
+        'channel-electrical-electronics-title': 'Electrical Electronics Sector',
+        'channel-electrical-electronics-desc': 'Precision mold manufacturing for electrical and electronic devices. Special designs for PCB, housing, connection components and electronic parts.',
+        'channel-electrical-electronics-link': 'Explore Electrical Electronics',
+        'channel-cleaning-equipment-title': 'Cleaning Equipment Sector',
+        'channel-cleaning-equipment-desc': 'Mold manufacturing for cleaning machines and equipment. Special mold designs for industrial cleaning solutions.',
+        'channel-cleaning-equipment-link': 'Explore Cleaning Equipment',
+        'channel-kitchenware-title': 'Kitchenware Sector',
+        'channel-kitchenware-desc': 'Mold manufacturing for kitchen items and tools. Special solutions for kitchen utensils, storage containers and kitchen tools.',
+        'channel-kitchenware-link': 'Explore Kitchenware',
         'channel-automotive-title': 'Automotive Sector',
         'channel-automotive-desc': 'Precision mold manufacturing for automotive parts. Special solutions for engine, transmission, brake system and body parts.',
         'channel-automotive-link': 'Explore Automotive',
-        'channel-electronics-title': 'Electronics Sector',
-        'channel-electronics-desc': 'Precision mold manufacturing for electronic devices. Special designs for PCB, housing and connection components.',
-        'channel-electronics-link': 'Explore Electronics',
-        'channel-medical-title': 'Medical Sector',
-        'channel-medical-desc': 'Sterile mold manufacturing for medical devices. Special material solutions for surgical instruments and implants.',
-        'channel-medical-link': 'Explore Medical',
-        'channel-aviation-title': 'Aviation Sector',
-        'channel-aviation-desc': 'High precision mold manufacturing for aviation parts. Special solutions for aircraft and helicopter parts.',
-        'channel-aviation-link': 'Explore Aviation',
+        'channel-bakelite-title': 'Bakelite Molds Sector',
+        'channel-bakelite-desc': 'Special manufacturing for bakelite material molds. Special design mold solutions for electrical insulation and heat resistance.',
+        'channel-bakelite-link': 'Explore Bakelite Molds',
         
         // Testimonials Section
         'testimonials-title': 'You work with good companies',
@@ -461,10 +807,12 @@ const translations = {
         'form-company-placeholder': 'Your company\'s name',
         'form-sector': 'Sector',
         'form-sector-select': 'Select Sector',
+        'form-sector-white-goods': 'White Goods',
+        'form-sector-electrical-electronics': 'Electrical Electronics',
+        'form-sector-cleaning-equipment': 'Cleaning Equipment',
+        'form-sector-kitchenware': 'Kitchenware',
         'form-sector-automotive': 'Automotive',
-        'form-sector-electronics': 'Electronics',
-        'form-sector-medical': 'Medical',
-        'form-sector-aviation': 'Aviation',
+        'form-sector-bakelite': 'Bakelite Molds',
         'form-sector-other': 'Other',
         'form-service': 'Service Type',
         'form-service-select': 'Select Service',
@@ -483,9 +831,150 @@ const translations = {
         'form-error': 'Error Occurred',
         'form-error-message': 'An error occurred while sending the message. Please try again.',
         
+        // Machines Page
+        'machines-cta-title': 'Meet Our Machine Park',
+        'machines-cta-subtitle': 'Bring your projects to life with our latest technology machines. Contact us for free technical consultation.',
+        'machines-cta-button1': 'Get Quote',
+        'machines-cta-button2': 'View Gallery',
+        
+        // Gallery Page
+        'gallery-cta-title': 'Bring Your Projects to Life',
+        'gallery-cta-subtitle': 'Experience the quality and precision you see in our gallery in your projects too. Contact us for free technical consultation.',
+        'gallery-cta-button-1': 'Get Quote',
+        'gallery-cta-button-2': 'Machine Park',
+        
+        // Footer Additional
+        'footer-company-title': 'Company',
+        'footer-contact-title': 'Contact',
+        
+        // Machines Page - Hero Section
+        'machines-hero-title': 'Machine Park',
+        'machines-hero-subtitle': 'Latest technology CNC machines and precision processing centers',
+        
+        // Machines Page - CNC Section
+        'machines-cnc-title': 'CNC Processing Centers',
+        'machines-cnc-subtitle': 'Precise solutions for complex geometries with 5-axis processing capability',
+        
+        // Machines Page - Machine Cards
+        'machine-5axis-title': '5-Axis CNC Processing Center',
+        'machine-5axis-desc': '5-axis processing capability for complex geometries and challenging projects. Micron precision processing.',
+        'machine-5axis-size': 'Work Area: 800x600x500mm',
+        'machine-5axis-speed': 'Maximum Speed: 12,000 RPM',
+        'machine-5axis-tools': 'Tool Count: 24',
+        
+        'machine-3axis-title': '3-Axis CNC Processing Center',
+        'machine-3axis-desc': 'High precision 3-axis processing center. Performance optimized for mold manufacturing.',
+        'machine-3axis-size': 'Work Area: 1000x800x600mm',
+        'machine-3axis-speed': 'Maximum Speed: 15,000 RPM',
+        'machine-3axis-tools': 'Tool Count: 30',
+        
+        'machine-edm-title': 'EDM Wire Erosion',
+        'machine-edm-desc': 'High precision wire erosion machine. Ideal solution for hard materials.',
+        'machine-edm-size': 'Work Area: 400x300x200mm',
+        'machine-edm-accuracy': 'Accuracy: ±0.005mm',
+        'machine-edm-wire': 'Wire Diameter: 0.1-0.3mm',
+        
+        // Machines Page - Measurement Equipment
+        'machines-measurement-title': 'Measurement Equipment',
+        'machines-measurement-subtitle': 'Advanced measurement systems for quality control',
+        
+        'equipment-cmm-title': '3D Coordinate Measurement Machine',
+        'equipment-cmm-desc': 'High precision 3D measurement system. Micron level measurement capability.',
+        'equipment-cmm-accuracy': 'Accuracy: ±0.003mm',
+        
+        'equipment-microscope-title': 'Digital Microscope',
+        'equipment-microscope-desc': 'Digital microscope system for surface quality control.',
+        'equipment-microscope-magnification': 'Magnification: 50x-500x',
+        
+        'equipment-caliper-title': 'Digital Caliper',
+        'equipment-caliper-desc': 'Digital caliper sets for precise measurement.',
+        'equipment-caliper-accuracy': 'Accuracy: ±0.01mm',
+        
+        // Machines Page - Software Section
+        'machines-software-title': 'CAD/CAM Software',
+        'machines-software-subtitle': 'Latest technology design and manufacturing software',
+        
+        'software-cad-title': 'CAD Software',
+        'software-solidworks': 'Solidworks',
+        'software-cimatron': 'Cimatron',
+        
+        'software-cam-title': 'CAM Software',
+        'software-esprit': 'Esprit TNG',
+        'software-cimatron': 'Cimatron',
+        
+        'software-simulation-title': 'Simulation Software',
+        'software-flow': 'Moldflow',
+        'software-simulate': 'SolidWorks Simulation',
+        'software-ansys': 'ANSYS',
+        
+        // Gallery Page - Hero Section
+        'gallery-hero-title': 'Gallery',
+        'gallery-hero-subtitle': 'Examples from our completed projects and work environment',
+        
+        // Gallery Page - Filter Buttons
+        'filter-all': 'All',
+        'filter-molds': 'Molds',
+        'filter-machines': 'Machines',
+        'filter-projects': 'Projects',
+        'filter-workshop': 'Workshop',
+        
+        // Gallery Page - Gallery Items
+        'gallery-mold1-title': 'White Goods Mold',
+        'gallery-mold1-desc': 'Precision mold manufactured for refrigerator parts',
+        'gallery-mold2-title': 'Electrical Electronics Mold',
+        'gallery-mold2-desc': 'Special design mold for electrical devices',
+        'gallery-mold3-title': 'Cleaning Equipment Mold',
+        'gallery-mold3-desc': 'Special design mold for cleaning machines',
+        
+        'gallery-machine1-title': '5-Axis CNC Machine',
+        'gallery-machine1-desc': '5-axis processing for complex geometries',
+        'gallery-machine2-title': 'EDM Wire Erosion',
+        'gallery-machine2-desc': 'Precise processing for hard materials',
+        'gallery-machine3-title': '3-Axis CNC Machine',
+        'gallery-machine3-desc': 'High precision 3-axis processing',
+        
+        'gallery-project1-title': 'Kitchenware Project',
+        'gallery-project1-desc': 'Special mold manufactured for kitchen utensils',
+        'gallery-project2-title': 'Bakelite Molds Project',
+        'gallery-project2-desc': 'Bakelite mold manufactured for electrical insulation',
+        'gallery-project3-title': 'Automotive Project',
+        'gallery-project3-desc': 'Precision mold manufactured for automotive parts',
+        
+        'gallery-workshop1-title': 'Main Workshop',
+        'gallery-workshop1-desc': 'Workshop equipped with modern CNC machines',
+        'gallery-workshop2-title': 'Quality Control',
+        'gallery-workshop2-desc': 'Quality control with precision measurement equipment',
+        'gallery-workshop3-title': 'Design Office',
+        'gallery-workshop3-desc': 'Design process with CAD/CAM software',
+        
+        'gallery-view-btn': 'View',
+        
+        // Footer Links
+        'footer-mold-design': 'Mold Design',
+        'footer-mold-production': 'Mold Production',
+        'footer-cnc-machining': 'CNC Machining',
+        'footer-wire-edm': 'Wire EDM',
+        'footer-plastic-injection': 'Plastic Injection',
+        'footer-product-design': 'Product Design',
+        'footer-about': 'About Us',
+        'footer-machines': 'Machine Park',
+        'footer-gallery': 'Gallery',
+        'footer-contact': 'Contact',
+        'footer-address': 'Ikitelli O.S.B Tormak San. Site. N Block No: 4, Basaksehir IST.',
+        
         // Quote Section
         'quote-title': 'Get Free Quote',
         'quote-subtitle': 'Fill out the form to get information about our special mold solutions for your project. We will get back to you within 24 hours.',
+        'quote-form-name': 'Full Name *',
+        'quote-form-company': 'Company Name *',
+        'quote-form-email': 'Email *',
+        'quote-form-phone': 'Phone *',
+        'quote-form-sector': 'Sector',
+        'quote-form-quantity': 'Quantity',
+        'quote-form-description': 'Project Description *',
+        'quote-form-file': 'Add File (Optional)',
+        'quote-form-file-note': 'PDF, DWG, STEP, STL files accepted (Max: 10MB)',
+        'quote-form-submit': 'Request Quote',
         
         // Services Page
         'services-title': 'Our Services',
@@ -502,14 +991,18 @@ const translations = {
         'service-maintenance-desc': 'Maintenance and repair of your existing molds. Performance optimization services.',
         'industries-title': 'Industries We Serve',
         'industries-subtitle': 'Specialized solutions in different sectors',
+        'industry-white-goods-title': 'White Goods',
+        'industry-white-goods-desc': 'Precision mold manufacturing for white goods like refrigerators, washing machines, dishwashers.',
+        'industry-electrical-electronics-title': 'Electrical Electronics',
+        'industry-electrical-electronics-desc': 'Special mold designs and manufacturing for electrical and electronic devices.',
+        'industry-cleaning-equipment-title': 'Cleaning Equipment',
+        'industry-cleaning-equipment-desc': 'Mold manufacturing and special designs for cleaning machines and equipment.',
+        'industry-kitchenware-title': 'Kitchenware',
+        'industry-kitchenware-desc': 'Mold manufacturing and special solutions for kitchen items and tools.',
         'industry-automotive-title': 'Automotive',
         'industry-automotive-desc': 'Precision mold manufacturing and part solutions for the automotive industry.',
-        'industry-electronics-title': 'Electronics',
-        'industry-electronics-desc': 'Special mold designs and manufacturing for electronic devices.',
-        'industry-medical-title': 'Medical',
-        'industry-medical-desc': 'Hygienic and precise mold solutions for medical devices.',
-        'industry-aviation-title': 'Aviation',
-        'industry-aviation-desc': 'High quality and reliable molds for the aviation industry.',
+        'industry-bakelite-title': 'Bakelite Molds',
+        'industry-bakelite-desc': 'Special manufacturing and design solutions for bakelite material molds.',
         
         // Footer Sections
         'footer-services-title': 'Our Services',
@@ -520,26 +1013,23 @@ const translations = {
         'footer-services-plastic': 'Plastic Injection Molds',
         'footer-services-metal': 'Metal Molds',
         'footer-services-maintenance': 'Mold Maintenance',
-        'footer-sectors-title': 'Sectors',
-        'footer-sectors-automotive': 'Automotive',
-        'footer-sectors-electronics': 'Electronics',
-        'footer-sectors-medical': 'Medical',
-        'footer-sectors-aviation': 'Aviation',
+        'footer-quick-access-title': 'Quick Access',
+        'footer-quick-machines': 'Machine Park',
+        'footer-quick-gallery': 'Gallery',
+        'footer-quick-contact': 'Contact',
+        'footer-quick-quote': 'Get Quote',
         'footer-company-title': 'Company',
         'footer-company-about': 'About Us',
-        'footer-company-certified': 'Quality Certified',
-        'footer-company-references': 'References',
-        'footer-company-career': 'Career',
+        'footer-company-services': 'Our Services',
+        'footer-company-design': 'Mold Design',
+        'footer-company-injection': 'Plastic Injection',
         'footer-contact-title': 'Contact Information',
         'footer-contact-address': 'Address:',
         'footer-contact-phone': 'Phone:',
         'footer-contact-email': 'Email:',
-        'footer-contact-hours': 'Working Hours:',
         'footer-contact-address-text': 'Organized Industrial Zone',
         'footer-contact-address-text-2': 'Istanbul, Turkey',
         'footer-contact-address-text-3': 'Block A No: 15, 34000, Istanbul, Turkey',
-        'footer-contact-hours-text': 'Monday - Friday: 08:00 - 18:00',
-        'footer-contact-hours-text-2': 'Saturday: 08:00 - 14:00',
         
         // About Page
         'about-title': 'About Us',
@@ -553,7 +1043,13 @@ const translations = {
         
         // Social Media
         'social-instagram': 'Instagram',
-        'social-whatsapp': 'WhatsApp'
+        'social-whatsapp': 'WhatsApp',
+        
+        // CNC Outsourcing Page
+        'cnc_outsourcing.tech4_description': 'Solidworks, Cimatron, Esprit TNG',
+        
+        // Service Mold Design Page
+        'service-mold-design-tech1-desc': 'Solidworks, Cimatron'
     }
 };
 

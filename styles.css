@@ -263,10 +263,10 @@ body {
     transition: all 0.3s ease;
 }
 
-.btn-primary:hover {
+/* .btn-primary:hover {
     background: #1f2937;
     transform: translateY(-1px);
-}
+} */
 
 .language-selector {
     position: relative;
@@ -399,8 +399,10 @@ body {
     height: 100vh;
     min-height: 600px;
     overflow: hidden;
-    background: linear-gradient(135deg, #6c4f3d 0%, #8b6f5a 100%);
+    background: linear-gradient(to right top, #725643, #967557, #ba976c, #dcbb82, #fde199);
 }
+
+
 
 .hero-slider {
     position: relative;
@@ -447,6 +449,8 @@ body {
     max-width: 600px;
     color: white;
 }
+
+
 
 .hero-title {
     font-size: 3.5rem;
@@ -1287,13 +1291,13 @@ body {
 }
 
 .cta .btn-primary {
-    background: white;
-    color: #6c4f3d;
+    /* background: white; */
+    /* color: #6c4f3d; */
 }
 
-.cta .btn-primary:hover {
+/* .cta .btn-primary:hover {
     background: #f8fafc;
-}
+} */
 
 .cta .btn-outline {
     border-color: white;
@@ -1751,8 +1755,8 @@ html {
 
 /* About Hero Section */
 .about-hero {
-    background: white;
-    color: #1f2937;
+    background: linear-gradient(to right top, #725643, #967557, #ba976c, #dcbb82, #fde199);
+    color: white;
     padding: 120px 0 80px;
     text-align: center;
 }
@@ -1761,12 +1765,12 @@ html {
     font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: 24px;
-    color: #1f2937;
+    color: white;
 }
 
 .about-hero-content p {
     font-size: 1.25rem;
-    color: #6b7280;
+    color: #e5e7eb;
     max-width: 600px;
     margin: 0 auto;
     line-height: 1.6;
@@ -1836,7 +1840,7 @@ html {
 
 .story-image img {
     width: 100%;
-    height: 400px;
+    height: 500px;
     object-fit: cover;
     border-radius: 16px;
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
@@ -1993,8 +1997,8 @@ html {
 }
 
 .member-photo {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     overflow: hidden;
     margin: 0 auto 20px;
@@ -2164,7 +2168,7 @@ html {
 
 /* Services Hero Section */
 .services-hero {
-    background: linear-gradient(135deg, #6c4f3d 0%, #8b6f5a 100%);
+    background: linear-gradient(to right top, #725643, #967557, #ba976c, #dcbb82, #fde199);
     color: white;
     padding: 120px 0 80px;
     text-align: center;
@@ -2225,7 +2229,7 @@ html {
 }
 
 .specialized-image {
-    flex: 0 0 200px;
+    flex: 0 0 250px;
     overflow: hidden;
 }
 
@@ -2468,7 +2472,7 @@ html {
 
 /* Machines Page Styles */
 .machines-hero {
-    background: linear-gradient(135deg, #6c4f3d 0%, #8b6f5a 100%);
+    background: linear-gradient(to right top, #725643, #967557, #ba976c, #dcbb82, #fde199);
     color: white;
     padding: 120px 0 80px;
     text-align: center;
@@ -2513,7 +2517,7 @@ html {
 }
 
 .machine-image {
-    height: 250px;
+    height: 320px;
     overflow: hidden;
 }
 
@@ -2930,7 +2934,7 @@ html {
 
 /* Gallery Page Styles */
 .gallery-hero {
-    background: linear-gradient(135deg, #6c4f3d 0%, #8b6f5a 100%);
+    background: linear-gradient(to right top, #725643, #967557, #ba976c, #dcbb82, #fde199);
     color: white;
     padding: 120px 0 80px;
     text-align: center;
@@ -3008,7 +3012,7 @@ html {
 
 .gallery-image {
     position: relative;
-    height: 250px;
+    height: 320px;
     overflow: hidden;
 }
 
@@ -3229,7 +3233,7 @@ html {
 
 .service-image {
     width: 100%;
-    height: 250px;
+    height: 320px;
     overflow: hidden;
     position: relative;
 }
@@ -3426,7 +3430,7 @@ html {
     min-height: 120px;
 }
 
-.btn-primary {
+/* .btn-primary {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     color: white;
     border: none;
@@ -3439,12 +3443,12 @@ html {
     text-decoration: none;
     display: inline-block;
     text-align: center;
-}
+} */
 
-.btn-primary:hover {
+/* .btn-primary:hover {
     transform: translateY(-2px);
     box-shadow: 0 10px 25px -5px rgba(37, 99, 235, 0.4);
-}
+} */
 
 /* Map styles moved to contact form area */
 
@@ -3461,7 +3465,7 @@ html {
 
 /* Contact Hero Section */
 .contact-hero {
-    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    background: linear-gradient(to right top, #725643, #967557, #ba976c, #dcbb82, #fde199);
     padding: 100px 0;
     text-align: center;
     color: white;
@@ -3597,7 +3601,7 @@ html {
 
 .service-content-grid {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
     gap: 60px;
     align-items: start;
 }
@@ -3752,7 +3756,7 @@ html {
 
 .service-content-image img {
     width: 100%;
-    height: 400px;
+    height: 450px;
     object-fit: cover;
     transition: transform 0.3s ease;
 }
@@ -3819,7 +3823,7 @@ html {
 
 .related-service-card img {
     width: 100%;
-    height: 200px;
+    height: 250px;
     object-fit: cover;
     transition: transform 0.3s ease;
 }
@@ -3848,7 +3852,7 @@ html {
 
 /* Service Hero */
 .service-hero {
-    background: linear-gradient(135deg, #6c4f3d 0%, #8b6f5a 100%);
+    background: linear-gradient(to right top, #725643, #967557, #ba976c, #dcbb82, #fde199);
     color: white;
     padding: 120px 0 80px;
     text-align: center;
@@ -3893,10 +3897,10 @@ html {
     border: none;
 }
 
-.service-cta .btn-primary:hover {
+/* .service-cta .btn-primary:hover {
     background: #8b6f5a;
     transform: translateY(-2px);
-}
+} */
 
 .service-cta .btn-outline {
     background: transparent;
@@ -4153,5 +4157,57 @@ html {
     .contact-custom-icon {
         width: 25px;
         height: 25px;
+    }
+}
+
+/* Machine image hover effect */
+.machine-image img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.machine-image img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Service Content Image Responsive */
+@media (max-width: 768px) {
+    .service-content-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .service-content-image img {
+        height: 350px;
+    }
+    
+    .image-overlay {
+        padding: 20px 15px;
+    }
+    
+    .image-overlay h3 {
+        font-size: 1.1rem;
+    }
+    
+    .image-overlay p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .service-content-image img {
+        height: 280px;
+    }
+    
+    .image-overlay {
+        padding: 15px 10px;
+    }
+    
+    .image-overlay h3 {
+        font-size: 1rem;
+    }
+    
+    .image-overlay p {
+        font-size: 0.8rem;
     }
 }

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formspree Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .form-group { margin: 20px 0; }
+        label { display: block; margin-bottom: 5px; }
+        input, textarea { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px; }
+        button { background: #6c4f3d; color: white; padding: 12px 24px; border: none; border-radius: 4px; cursor: pointer; }
+        button:hover { background: #5a3f2f; }
+        .result { margin-top: 20px; padding: 15px; border-radius: 4px; }
+        .success { background: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+        .error { background: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+    </style>
+</head>
+<body>
+    <h1>Formspree Endpoint Test</h1>
+    <p>Endpoint: <strong>https://formspree.io/f/xrbaglpg</strong></p>
+    
+    <form id="testForm">
+        <div class="form-group">
+            <label for="name">Ad Soyad:</label>
+            <input type="text" id="name" name="name" value="Test Kullanıcı" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="email">E-posta:</label>
+            <input type="email" id="email" name="email" value="test@example.com" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="message">Mesaj:</label>
+            <textarea id="message" name="message" rows="4" required>Bu bir test mesajıdır.</textarea>
+        </div>
+        
+        <button type="submit">Test Et</button>
+    </form>
+    
+    <div id="result"></div>
+    
+    <script>
+        document.getElementById('testForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(this);
+            const resultDiv = document.getElementById('result');
+            
+            // Show loading
+            resultDiv.innerHTML = '<div class="result">Test ediliyor...</div>';
+            
+                    // Test Formspree endpoint
+        fetch('https://formspree.io/f/xrbaglpg', {
+            method: 'POST',
+            body: formData,
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/x-www-form-urlencoded'
+            }
+        })
+            .then(response => {
+                console.log('Response status:', response.status);
+                console.log('Response headers:', response.headers);
+                return response.json();
+            })
+            .then(data => {
+                console.log('Response data:', data);
+                if (data.ok) {
+                    resultDiv.innerHTML = '<div class="result success">✅ Başarılı! Formspree endpoint çalışıyor.</div>';
+                } else {
+                    resultDiv.innerHTML = '<div class="result error">❌ Hata: ' + (data.error || 'Bilinmeyen hata') + '</div>';
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                resultDiv.innerHTML = '<div class="result error">❌ Hata: ' + error.message + '</div>';
+            });
+        });
+    </script>
+</body>
+</html>
